@@ -147,13 +147,13 @@
       "inputAbbreviatedPath" : "\/_\/img\/Gallery images\/Orig size\/ssArtwork 14.jpg",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/_\/img\/Gallery images\/Orig size\/ssArtwork 14.jpg",
-      "initialSize" : 1295505,
+      "initialSize" : 911067,
       "fileType" : 4096
     },
-    "\/_\/Components\/less\/forms.less" : {
+    "\/_\/Components\/less\/navs.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/_\/Components\/less\/forms.less",
-      "outputAbbreviatedPath" : "\/_\/Components\/css\/forms.css",
+      "inputAbbreviatedPath" : "\/_\/Components\/less\/navs.less",
+      "outputAbbreviatedPath" : "\/_\/Components\/css\/navs.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -167,10 +167,10 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/_\/Components\/less\/navs.less" : {
+    "\/_\/Components\/less\/forms.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/_\/Components\/less\/navs.less",
-      "outputAbbreviatedPath" : "\/_\/Components\/css\/navs.css",
+      "inputAbbreviatedPath" : "\/_\/Components\/less\/forms.less",
+      "outputAbbreviatedPath" : "\/_\/Components\/css\/forms.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -192,7 +192,7 @@
       "inputAbbreviatedPath" : "\/_\/img\/Gallery images\/Orig size\/ssArtwork 20.jpg",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/_\/img\/Gallery images\/Orig size\/ssArtwork 20.jpg",
-      "initialSize" : 1390991,
+      "initialSize" : 1054333,
       "fileType" : 4096
     },
     "\/_\/img\/Gallery images\/Orig size\/ssArtwork 16.jpg" : {
@@ -608,17 +608,6 @@
       "initialSize" : 1090270,
       "fileType" : 4096
     },
-    "\/_\/img\/carousel\/carouselSevenSis.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_\/img\/carousel\/carouselSevenSis.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/_\/img\/carousel\/carouselSevenSis.jpg",
-      "initialSize" : 220571,
-      "fileType" : 4096
-    },
     "\/_\/img\/Gallery images\/ssArtwork 7.jpeg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -628,6 +617,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/_\/img\/Gallery images\/ssArtwork 7.jpeg",
       "initialSize" : 1262808,
+      "fileType" : 4096
+    },
+    "\/_\/img\/carousel\/carouselSevenSis.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_\/img\/carousel\/carouselSevenSis.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/_\/img\/carousel\/carouselSevenSis.jpg",
+      "initialSize" : 220571,
       "fileType" : 4096
     },
     "\/_\/Components\/less\/modals.less" : {
@@ -926,14 +926,16 @@
       "initialSize" : 716216,
       "fileType" : 4096
     },
-    "\/gallery.php" : {
+    "\/_\/Components\/js\/popover.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/gallery.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/_\/Components\/js\/popover.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/_\/Components\/js\/popover-ck.js",
+      "fileType" : 64
     },
     "\/_\/img\/Gallery images\/ssArtwork 21.jpeg" : {
       "ignoreWasSetByUser" : 0,
@@ -979,16 +981,14 @@
       "initialSize" : 1651273,
       "fileType" : 4096
     },
-    "\/_\/Components\/js\/popover.js" : {
+    "\/gallery.php" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_\/Components\/js\/popover.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/_\/Components\/js\/popover-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/gallery.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/_\/Components\/less\/progress-bars.less" : {
       "ieCompatibility" : 1,
@@ -1043,7 +1043,7 @@
       "inputAbbreviatedPath" : "\/_\/img\/Gallery images\/Orig size\/ssArtwork 13.jpg",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/_\/img\/Gallery images\/Orig size\/ssArtwork 13.jpg",
-      "initialSize" : 1174918,
+      "initialSize" : 1711328,
       "fileType" : 4096
     },
     "\/_\/img\/Gallery images\/Orig size\/ssArtwork 15.jpg" : {
@@ -1054,7 +1054,7 @@
       "inputAbbreviatedPath" : "\/_\/img\/Gallery images\/Orig size\/ssArtwork 15.jpg",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/_\/img\/Gallery images\/Orig size\/ssArtwork 15.jpg",
-      "initialSize" : 1318362,
+      "initialSize" : 1771294,
       "fileType" : 4096
     },
     "\/_\/Components\/js\/modal.js" : {
@@ -1177,17 +1177,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/_\/img\/Landing\/ssLanding3.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_\/img\/Landing\/ssLanding3.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/_\/img\/Landing\/ssLanding3.jpg",
-      "initialSize" : 2902445,
-      "fileType" : 4096
-    },
     "\/_\/Components\/php\/aside_blogPosts.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1207,6 +1196,17 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/_\/js\/myScript.js",
       "fileType" : 64
+    },
+    "\/_\/img\/Landing\/ssLanding3.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_\/img\/Landing\/ssLanding3.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/_\/img\/Landing\/ssLanding3.jpg",
+      "initialSize" : 2902445,
+      "fileType" : 4096
     },
     "\/_\/Components\/less\/normalize.less" : {
       "ieCompatibility" : 1,
@@ -1504,10 +1504,10 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/_\/Components\/less\/grid.less" : {
+    "\/_\/Components\/less\/breadcrumbs.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/_\/Components\/less\/grid.less",
-      "outputAbbreviatedPath" : "\/_\/Components\/css\/grid.css",
+      "inputAbbreviatedPath" : "\/_\/Components\/less\/breadcrumbs.less",
+      "outputAbbreviatedPath" : "\/_\/Components\/css\/breadcrumbs.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -1521,10 +1521,10 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/_\/Components\/less\/breadcrumbs.less" : {
+    "\/_\/Components\/less\/grid.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/_\/Components\/less\/breadcrumbs.less",
-      "outputAbbreviatedPath" : "\/_\/Components\/css\/breadcrumbs.css",
+      "inputAbbreviatedPath" : "\/_\/Components\/less\/grid.less",
+      "outputAbbreviatedPath" : "\/_\/Components\/css\/grid.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -1711,7 +1711,7 @@
       "inputAbbreviatedPath" : "\/_\/img\/Gallery images\/Orig size\/ssArtwork 6.jpg",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/_\/img\/Gallery images\/Orig size\/ssArtwork 6.jpg",
-      "initialSize" : 2424553,
+      "initialSize" : 1484406,
       "fileType" : 4096
     },
     "\/_\/img\/Gallery images\/ssArtwork 8.jpeg" : {
