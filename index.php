@@ -19,6 +19,7 @@
 <body id="landingPage">
 
 <?php include "_/components/php/article-landingPage.php"; ?>
+<p>Hello World</p>
 
 </body>
 <!--</section>-->
