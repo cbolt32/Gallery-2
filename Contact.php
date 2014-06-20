@@ -19,7 +19,7 @@
 </head>
 <body id="ContactMe">
 <section class="container">
-    <div class="content row">
+    <div class="content row" id="contactContent">
         <?php include "_/components/php/header.php"; ?>
         <?php include "_/components/php/snipet-carousel.php"; ?>
         <section class="main col col-lg-8">

@@ -27,7 +27,7 @@
 </head>
 <body id="Home">
 <section class="container">
-    <div class="content row" id="main">
+    <div class="content row" id="homeContent">
         <section class="main col col-lg-8">
             <h1>Thank You <?php echo $_POST['myName']; ?> for submitting you form</br>
                 You will receive a confirmation email at <?php echo $_POST['myEmail']; ?></br>

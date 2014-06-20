@@ -20,7 +20,7 @@
 </head>
 <body id="Home">
 <section class="container">
-    <div class="content row" id="main">
+    <div class="content row" id="homeContent">
         <?php include "_/components/php/header.php"; ?>
         <?php include "_/components/php/snippet-carousel.php"; ?>
         <section class="main col col-lg-8">

@@ -19,11 +19,12 @@
     <![endif]-->
 </head>
 <body id="gallery">
-<section class="container">
-    <div class="content row">
+<section class="container" >
+    <div class="content row" id="galleryContent">
         <?php include "_/components/php/header.php"; ?>
+        <?php include "_/components/php/article-gallery.php"; ?>
         <section class="main col col-lg-8">
-            <?php include "_/components/php/article-gallery.php"; ?>
+
         </section>
         <!--main content-->
     </div>

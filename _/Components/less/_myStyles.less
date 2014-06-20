@@ -5,6 +5,7 @@
 @gunpipe: #5f5f5f;
 @intoTheLight: #cddaec;
 @whereWillYouStay: #c2d4ec;
+//Additional Earthy colors!
 @aa: #434E3C;
 @bb: #F5F4EB;
 @cc: #893667;
@@ -468,13 +469,7 @@ ul.landingTitles {
   list-style-type: none;
 }
 
-.landingHeader {
-  padding-top: 10px;
-  padding-bottom: 20px;
-  color: #000000;
-  text-align: center;
-  box-shadow: @aa 10px 10px 40px;
-}
+
 
 h3.landingWords {
   color: white !important;
@@ -586,12 +581,17 @@ h1, h2, h3, h4, h5, h6, {
   font-family: bradley_hand_itc_ttregular;
 }
 
-#home, #main {
+//#home, #homeContent, #about, #gallery {
+//  background: @bb;
+//}
+#homeContent, #aboutContent, #galleryContent, #contactContent{
+  padding: 30px 30px 30px 30px;
+  border-radius: 40px 10px 40px 10px;
   background: @bb;
 }
 
-body {
-  background: @bb;
+body#Home, body#gallery, body#about, body#ContactMe {
+  background: darken(@bb, 15%);
   margin-top: 30px;
 }
 
@@ -661,7 +661,7 @@ div.carousel-caption > h2 {
   margin-top: 10px;
 }
 
-.carousel-indicators {
+.right.carousel-control, .left.carousel-control {
   border-radius: 10px;
 }
 
