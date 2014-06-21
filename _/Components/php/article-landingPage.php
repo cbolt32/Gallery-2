@@ -31,12 +31,12 @@
 
         <h2>Showcasing My Artwork</h2>
 
-<!--        <p class="btn-group  landingButtonGroup">-->
-<!--            <button type="button" class="landingButton btn btn-default "><a href="home.php">Home</a></button>-->
-<!--            <button type="button" class=" landingButton btn btn-default hidden-xs"><a href="about.php">About Me</a>-->
-<!--            </button>-->
-            <button type="button" class=" landingButton btn btn-default"><a href="gallery.php">Visit My Gallery</a></button>
-<!--        </p>-->
+        <!--        <p class="btn-group  landingButtonGroup">-->
+        <!--            <button type="button" class="landingButton btn btn-default "><a href="home.php">Home</a></button>-->
+        <!--            <button type="button" class=" landingButton btn btn-default hidden-xs"><a href="about.php">About Me</a>-->
+        <!--            </button>-->
+        <button type="button" class=" landingButton btn btn-default"><a href="gallery.php">Visit My Gallery</a></button>
+        <!--        </p>-->
     </header>
 
 </div>

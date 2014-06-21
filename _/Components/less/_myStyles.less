@@ -401,9 +401,9 @@ body.landingPage {
   overflow: hidden;
 }
 
-.container > header {
+.container > header.landingHeader {
   padding: 30px 30px 10px 20px;
-  margin: 0px 20px 10px 20px;
+  margin: 20px 20px 10px 20px;
   position: relative;
   display: block;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
@@ -415,7 +415,7 @@ body.landingPage {
   border-radius: 10px;
 }
 
-.container > header h1 {
+.container > header.landingHeader h1 {
   font-family: 'angelinaregular', 'Arial', sans-serif, sans-serif;
   font-size: 35px;
   line-height: 35px;
@@ -426,7 +426,7 @@ body.landingPage {
   padding: 0px 0px 5px 0px;
 }
 
-.container > header h2, p.info {
+.container > header.landingHeader h2, p.info {
   font-size: 26px;
   font-style: italic;
   color: @aa;
@@ -436,6 +436,7 @@ body.landingPage {
 .landingButton {
   background: rgba(255, 255, 255, 0.6);
   margin-top: 30px;
+  background-color: @bb;
   a {
     color: @aa;
   }
@@ -443,6 +444,7 @@ body.landingPage {
 
 .landingButton:hover {
   background-color: @aa;
+  border-color: @aa;
 
   a {
     text-decoration: none;
@@ -469,53 +471,50 @@ ul.landingTitles {
   list-style-type: none;
 }
 
-
-
 h3.landingWords {
   color: white !important;
 }
 
 /*------Header Styling---------------*/
 
-#branding, #headerTitle {
+#headerTitle {
   height: 100px;
   font-family: bradley_hand_itc_ttregular;
   font-size: 75px;
   color: @aa;
   @media (max-width: 767px) {
-    font-size: 200%;
-    width: 90%;
+    font-size: 500%;
     padding-left: 10px;
+    text-align: center;
   }
   @media (max-width: 500px) {
-    font-size: 150%;
-
+    font-size: 400%;
   }
-  #headerTitle {
-    @media (max-width: 461px) {
-      width: 80px;
+  @media (max-width: 461px) {
+    font-size: 300%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
 
-    }
+container.gap {
+  display: inline-block;
+  width: 49%;
+}
+
+@media all and (min-width: 420px) {
+  .container.item, .container.gap {
+    width: 32%;
   }
 
-  container.gap {
-    display: inline-block;
-    width: 49%;
-  }
-  @media all and (min-width: 420px) {
-    .container.item, .container.gap {
-      width: 32%;
-    }
-
-    section.navbar-nav {
-      position: relative;
-      @media all and (min-width: 640px) {
-        width: 100%;
-        .container.item, .container.gap {
-          @media (max-width: 767px) {
-            margin-left: 20px;
-            width: 23.5%;
-          }
+  section.navbar-nav {
+    position: relative;
+    @media all and (min-width: 640px) {
+      width: 100%;
+      .container.item, .container.gap {
+        @media (max-width: 767px) {
+          margin-left: 20px;
+          width: 23.5%;
         }
       }
     }
@@ -533,45 +532,64 @@ section.navbar-nav {
 }
 
 .navbar-nav {
+  opacity: 0.9;
   li a {
     border-radius: 05px;
-    color: @gunpipe;
-
+    color: @aa;
   }
-
   li.active a {
-    background: lighten(@gunpipe, 20%);
+    background: lighten(@aa, 20%);
     color: white;
   }
-
   li a:hover {
-    background: lighten(@gunpipe, 40%);
+    background: lighten(@aa, 50%);
     color: white;
   }
 }
 
 .navbar-nav li a {
   @media (max-width: 767px) {
-    //color:blue;
     text-align: center;
   }
 }
 
+#iconBar {
+  list-style: none;
+  li {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    a {
+      width: 30px;
+    }
+    a:hover {
+      background-color: #ffffff;
+    }
+  }
+
+}
+
 div#iconBar {
   padding-top: 10px;
+  align-content: right;
   @media (max-width: 767px) {
-    display: block;
-    margin-right: auto ;
-    margin-left: 36%;
+    text-align: center;
   }
+}
+
+ul.icon-bar {
+  padding-left: 0px;
 }
 
 #facebookIcon, #contactIcon, #linkedInIcon, #mailIcon, #blogIcon {
   height: 30px;
   width: 30px;
-  @media (min-width: 766px) {
+  @media (min-width: 767px) {
     float: right;
-    right: 0px;
+  }
+  @media (max-resolution: 767px) {
+    align-content: center;
   }
 }
 
@@ -581,13 +599,11 @@ h1, h2, h3, h4, h5, h6, {
   font-family: bradley_hand_itc_ttregular;
 }
 
-//#home, #homeContent, #about, #gallery {
-//  background: @bb;
-//}
-#homeContent, #aboutContent, #galleryContent, #contactContent{
+#homeContent, #aboutContent, #galleryContent, #contactContent {
   padding: 30px 30px 30px 30px;
   border-radius: 40px 10px 40px 10px;
   background: @bb;
+  box-shadow: 20px, 20px, 40px @aa;
 }
 
 body#Home, body#gallery, body#about, body#ContactMe {
@@ -730,6 +746,12 @@ form.contactUs {
 form.contactUs {
   border-right: 1px black solid;
 }
+
+input[name="enquiryText"] {
+//  height: 15px;
+  line-height: 15px;
+}
+
 
 /*------Footer Styling---------------*/
 ul.breadcrumb {

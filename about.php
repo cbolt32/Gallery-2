@@ -22,6 +22,7 @@
         <?php include "_/components/php/header.php"; ?>
         <section class="main col col-lg-8">
             <?php include "_/components/php/article-biog.php"; ?>
+            </br></br>
             <?php include "_/components/php/article-inspire.php"; ?>
         </section>
         <!--main content-->

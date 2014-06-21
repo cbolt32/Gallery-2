@@ -352,9 +352,9 @@ body.landingPage {
 .ie7 body.landingPage {
   overflow: hidden;
 }
-.container > header {
+.container > header.landingHeader {
   padding: 30px 30px 10px 20px;
-  margin: 0px 20px 10px 20px;
+  margin: 20px 20px 10px 20px;
   position: relative;
   display: block;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
@@ -365,7 +365,7 @@ body.landingPage {
   background: rgba(255, 255, 255, 0.5);
   border-radius: 10px;
 }
-.container > header h1 {
+.container > header.landingHeader h1 {
   font-family: 'angelinaregular', 'Arial', sans-serif, sans-serif;
   font-size: 35px;
   line-height: 35px;
@@ -375,7 +375,7 @@ body.landingPage {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
   padding: 0px 0px 5px 0px;
 }
-.container > header h2,
+.container > header.landingHeader h2,
 p.info {
   font-size: 26px;
   font-style: italic;
@@ -385,12 +385,14 @@ p.info {
 .landingButton {
   background: rgba(255, 255, 255, 0.6);
   margin-top: 30px;
+  background-color: #f5f4eb;
 }
 .landingButton a {
   color: #434e3c;
 }
 .landingButton:hover {
   background-color: #434e3c;
+  border-color: #434e3c;
 }
 .landingButton:hover a {
   text-decoration: none;
@@ -415,7 +417,6 @@ h3.landingWords {
   color: white !important;
 }
 /*------Header Styling---------------*/
-#branding,
 #headerTitle {
   height: 100px;
   font-family: bradley_hand_itc_ttregular;
@@ -423,53 +424,45 @@ h3.landingWords {
   color: #434e3c;
 }
 @media (max-width: 767px) {
-  #branding,
   #headerTitle {
-    font-size: 200%;
-    width: 90%;
+    font-size: 500%;
     padding-left: 10px;
+    text-align: center;
   }
 }
 @media (max-width: 500px) {
-  #branding,
   #headerTitle {
-    font-size: 150%;
+    font-size: 400%;
   }
 }
 @media (max-width: 461px) {
-  #branding #headerTitle,
-  #headerTitle #headerTitle {
-    width: 80px;
+  #headerTitle {
+    font-size: 300%;
+    white-space: nowrap;
+    overflow: hidden;
   }
 }
-#branding container.gap,
-#headerTitle container.gap {
+container.gap {
   display: inline-block;
   width: 49%;
 }
 @media all and (min-width: 420px) {
-  #branding .container.item,
-  #headerTitle .container.item,
-  #branding .container.gap,
-  #headerTitle .container.gap {
+  .container.item,
+  .container.gap {
     width: 32%;
   }
-  #branding section.navbar-nav,
-  #headerTitle section.navbar-nav {
+  section.navbar-nav {
     position: relative;
   }
 }
 @media all and (min-width: 420px) and all and (min-width: 640px) {
-  #branding section.navbar-nav,
-  #headerTitle section.navbar-nav {
+  section.navbar-nav {
     width: 100%;
   }
 }
 @media all and (min-width: 420px) and all and (min-width: 640px) and (max-width: 767px) {
-  #branding section.navbar-nav .container.item,
-  #headerTitle section.navbar-nav .container.item,
-  #branding section.navbar-nav .container.gap,
-  #headerTitle section.navbar-nav .container.gap {
+  section.navbar-nav .container.item,
+  section.navbar-nav .container.gap {
     margin-left: 20px;
     width: 23.5%;
   }
@@ -484,16 +477,19 @@ section.navbar-nav {
     margin-left: 20px;
   }
 }
+.navbar-nav {
+  opacity: 0.9;
+}
 .navbar-nav li a {
   border-radius: 05px;
-  color: #5f5f5f;
+  color: #434e3c;
 }
 .navbar-nav li.active a {
-  background: #929292;
+  background: #758868;
   color: white;
 }
 .navbar-nav li a:hover {
-  background: #c5c5c5;
+  background: #c3ccbd;
   color: white;
 }
 @media (max-width: 767px) {
@@ -501,15 +497,32 @@ section.navbar-nav {
     text-align: center;
   }
 }
+#iconBar {
+  list-style: none;
+}
+#iconBar li {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: right;
+}
+#iconBar li a {
+  width: 30px;
+}
+#iconBar li a:hover {
+  background-color: #ffffff;
+}
 div#iconBar {
   padding-top: 10px;
+  align-content: right;
 }
 @media (max-width: 767px) {
   div#iconBar {
-    display: block;
-    margin-right: auto ;
-    margin-left: 36%;
+    text-align: center;
   }
+}
+ul.icon-bar {
+  padding-left: 0px;
 }
 #facebookIcon,
 #contactIcon,
@@ -519,14 +532,22 @@ div#iconBar {
   height: 30px;
   width: 30px;
 }
-@media (min-width: 766px) {
+@media (min-width: 767px) {
   #facebookIcon,
   #contactIcon,
   #linkedInIcon,
   #mailIcon,
   #blogIcon {
     float: right;
-    right: 0px;
+  }
+}
+@media (max-resolution: 767px) {
+  #facebookIcon,
+  #contactIcon,
+  #linkedInIcon,
+  #mailIcon,
+  #blogIcon {
+    align-content: center;
   }
 }
 /*------Main Styling---------------*/
@@ -546,6 +567,7 @@ h6 {
   padding: 30px 30px 30px 30px;
   border-radius: 40px 10px 40px 10px;
   background: #f5f4eb;
+  box-shadow: 20px, 20px, 40px #434e3c;
 }
 body#Home,
 body#gallery,
@@ -670,6 +692,9 @@ form.contactUs legend {
 }
 form.contactUs {
   border-right: 1px black solid;
+}
+input[name="enquiryText"] {
+  line-height: 15px;
 }
 /*------Footer Styling---------------*/
 ul.breadcrumb {

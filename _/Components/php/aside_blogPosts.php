@@ -7,6 +7,19 @@
         define('MAGPIECACHEDIR', '_/Components/magpierss/tmp/magpie_cache');
         $url = 'http://shannonsait.wordpress.com/feed/'; //this is the url of the feed, enter your own url here
         $rss = fetch_rss($url);
+        //display links recent blog entries:
+
+        echo "<ul><em>Latest blog additions:</em>\n";
+
+        foreach ($rss->items as $item) {
+            $href = $item['link'];
+            $title = $item['title'];
+            $content = $item['description'];
+            $image = $item['media:content, url'];
+
+            echo "<li><a href=$href>$title</a> $content <img src='$image'></li>\n";
+        }
+
 
         //    $i = 0;
         //    $max = 4;
@@ -30,13 +43,13 @@
         //        $href = $item['link'];
 
 
-        for ($i = 0; $i < 5; $i++) { //sizeof($rss->items); $i++){ commented selector takes allelements
-            $output .= '<h4>' . $rss->items[$i]['title'] . '</h4>';
-            $output .= $rss->items[$i]['description'] . '<br>';
-            $output .= $rss->items[$i]->children['media:content'] . '<br>';
-            // $output .= $node->getElementsByTagName('content')->item(0)->nodeValue;
-        }
-        echo $output;
+//        for ($i = 0; $i < 5; $i++) { //sizeof($rss->items); $i++){ commented selector takes allelements
+//            $output .= '<h4>' . $rss->items[$i]['title'] . '</h4>';
+//            $output .= $rss->items[$i]['description'] . '<br>';
+//            $output .= $rss->items[$i]->children['media:content'] . '<br>';
+//            // $output .= $node->getElementsByTagName('content')->item(0)->nodeValue;
+//        }
+//        echo $output;
 
 
         ?>

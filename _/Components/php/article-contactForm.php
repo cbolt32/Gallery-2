@@ -58,7 +58,7 @@
             <section class="row">
                 <label class="col COL-LG-4 control-label" for="enquiryText">Your Enquiry</label>
 
-                <div class="controls">
+                <div class="controls" style="text-align: top ">
                     <input class="col col-lg-8" type="text" name="enquiryText" id="enquiry" autofocus
                            placeholder="Your Enquiry..." required style="height: 150px"/>
                 </div>
