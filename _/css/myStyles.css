@@ -394,7 +394,6 @@ p.info {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
 }
 .landingButton {
-  background: rgba(255, 255, 255, 0.6);
   margin-top: 30px;
   background-color: #f5f4eb;
 }
@@ -585,7 +584,8 @@ h6 {
 body#Home,
 body#gallery,
 body#about,
-body#ContactMe {
+body#ContactMe,
+body#Thanks {
   background: #dcd8b8;
   margin-top: 30px;
 }
@@ -604,8 +604,18 @@ p {
   max-height: 300px;
   overflow: scroll;
 }
+@media (max-width: 768px) {
+  .feedback {
+    display: inline;
+  }
+}
 .feedbackAside h4 {
   padding-left: 0px;
+}
+blockquote {
+  border-color: #8ea083;
+  font-family: fenix;
+  color: #434e3c;
 }
 aside > p > a {
   padding-bottom: 00;
@@ -614,6 +624,20 @@ span.sig {
   font-family: bradley_hand_itc_ttregular;
   color: hotpink;
   font-size: 130%;
+}
+/*------News Styling---------------*/
+.well {
+  color: #434e3c;
+  background-color: #f5f4eb;
+  border-color: #a9b6a0;
+}
+.news > p {
+  font-size: 100%;
+  padding-left: 10px;
+  color: #434e3c;
+}
+.news > .newsTitles {
+  margin-top: 20px;
 }
 /*------Gallery Styling---------------*/
 .thumbnail {
@@ -659,12 +683,13 @@ div.carousel-caption > h2 {
 }
 /*------Blog Posts Article Styling------------*/
 #blogPosts {
-  background: #fefdfc;
   overflow-x: hidden;
-  padding: 10px 20px 20px 20px;
+  padding: 0px 20px 20px 0px;
   margin-top: 20px;
   max-height: 500px;
   overflow-y: scroll;
+  margin-right: auto;
+  margin-left: auto;
 }
 @media (max-width: 1200px) {
   #blogPosts {
@@ -674,20 +699,20 @@ div.carousel-caption > h2 {
 @media (max-width: 992px) {
   #blogPosts {
     height: 250px;
-    width: 80%;
+    width: 95%;
     margin-bottom: 50px;
   }
 }
 @media (max-width: 480px) {
   #blogPosts {
     height: 250px;
-    width: 50%;
+    width: 100%;
     margin-bottom: 50px;
   }
 }
 #blogPostArticle,
 h3 {
-  margin-left: 10px;
+  margin-top: 30px;
 }
 /*
  * Example of zRSSFeed Styling (Optional)
@@ -697,7 +722,8 @@ h3 {
  *
  */
 .rssFeed {
-  padding: 150px 150px;
+  text-align: center;
+  padding-left: 40px;
 }
 .rssRow > p > a > img {
   width: 90%;
@@ -725,10 +751,11 @@ h3 {
 .rssHeader a {
   padding: 0.2em 0;
   font-family: bradley_hand_itc_ttregular;
-  font-size: 180%;
+  font-size: 140%;
 }
 .rssHeader {
   margin-bottom: 20px;
+  text-align: left;
 }
 .rssBody ul {
   list-style: none;
@@ -757,11 +784,9 @@ h3 {
   border-bottom: 1px #434e3c solid;
   box-shadow: 10px 5px 20px #434e3c;
   margin-bottom: 40px;
-  margin-left: 1%;
   margin-right: 1%;
 }
 .rssRow .rssMedia {
-  padding: 0.5em;
   font-size: 1em;
 }
 /*------Contact Us Form Styling---------------*/
@@ -783,7 +808,18 @@ form.contactUs legend {
   margin-top: 100px;
 }
 #submit {
-  margin-left: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  background-color: #758868;
+  border-color: #f5f4eb;
+}
+fieldset#enquiryDetails {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #434e3c;
+}
+#submit:hover {
+  background-color: #c3ccbd;
 }
 input#enquiryDetails {
   line-height: 15px;
@@ -816,18 +852,49 @@ input:focus,
 textarea:focus {
   outline: none !important;
   box-shadow: 0px 5px 20px #434e3c;
+  -webkit-box-shadow: 0px 5px 20px #434e3c;
+  -moz-webkit-box-shadow: 0px 5px 20px #434e3c;
+  -ms-webkit-box-shadow: 0px 5px 20px #434e3c;
+  -o-webkit-box-shadow: 0px 5px 20px #434e3c;
+}
+/*------Google Map Styling---------------*/
+#map_canvas {
+  width: 350px;
+  height: 350px;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+@media (max-width: 480px) {
+  #map_canvas {
+    width: 250px;
+    height: 250px;
+  }
 }
 /*------Footer Styling---------------*/
-ul.breadcrumb {
+#footer {
   background: #f5f4eb;
-  margin-top: 100px;
+  height: 100px;
 }
-ul.breadcrumb ul.breadcrumb > a {
+#footer #footer {
   font: #434e3c;
 }
 /*------Thank You Page ---------------*/
-#homeContent {
-  text-align: center;
+#thankyou {
   margin-right: auto;
   margin-left: auto;
+  padding: 30px 30px 30px 30px;
+  border-radius: 40px 10px 40px 10px;
+  background: #f5f4eb;
+  box-shadow: 20px, 20px, 40px #434e3c;
+}
+#thankyou > h1,
+#thankyou h3 {
+  text-align: center;
+}
+@media (max-width: 480px) {
+  #thankyou > h1,
+  #thankyou h3 {
+    font-size: 100%;
+  }
 }

@@ -1,20 +1,20 @@
 <section class="feedbackAside">
-    <h4>Feedback</h4>
+    <h2>Feedback</h2>
 
     <div class="feedback">
 
         <p class="feedBackQuote">
         <blockquote>
-            <h5>Feedback 1</h5>
-            ipsum dolor sit amet, consectetur adipisicing elit. Accusamus beatae culpa dignissimos dolor, ea est.
+            <h4><em><strong>Angela Brown</strong></em></h4>
+            Great work, very dramatic
         </blockquote>
         <blockquote>
-            <h5>Feedback 1</h5>
-            ipsum dolor sit amet, consectetur adipisicing elit. Accusamus beatae culpa dignissimos dolor, ea est.
+            <h4><em><strong>Pete Lawson</strong></em></h4>
+            Really evocative of Sussex
         </blockquote>
         <blockquote>
-            <h5>Feedback 1</h5>
-            ipsum dolor sit amet, consectetur adipisicing elit. Accusamus beatae culpa dignissimos dolor, ea est.
+            <h4><em><strong>Lucy Robson</strong></em></h4>
+            Love the dynamic and powerful marks
         </blockquote>
         </p>
     </div>

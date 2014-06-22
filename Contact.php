@@ -27,6 +27,7 @@
         </section>
         <!--main content-->
         <section class="sidebar col col-lg-4">
+            <?php include "_/components/php/aside-googleMaps.php"; ?>
             <?php include "_/components/php/aside-feedback.php"; ?>
 
         </section>

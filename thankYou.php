@@ -25,10 +25,10 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 </head>
-<body id="Home">
+<body id="Thanks">
 <section class="container">
-    <div class="content row" id="homeContent">
-        <section class="main col col-lg-8"  id="thankyou">
+    <div class="content row" id="thanksContent">
+        <section class="main col col-lg-12"  id="thankyou">
             <h1>Thank You <?php echo $_POST['myName']; ?> for submitting your form</br>
                 I shall, if required endeavour to contact you on
                 <?php echo $_POST['myEmail']; ?> as soon as im available</br>

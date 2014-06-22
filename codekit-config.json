@@ -108,7 +108,7 @@
       "inputAbbreviatedPath" : "\/_\/img\/Gallery images\/Orig size\/ssArtwork 12.jpg",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/_\/img\/Gallery images\/Orig size\/ssArtwork 12.jpg",
-      "initialSize" : 978814,
+      "initialSize" : 1446686,
       "fileType" : 4096
     },
     "\/_\/Components\/less\/list-group.less" : {
@@ -147,7 +147,7 @@
       "inputAbbreviatedPath" : "\/_\/img\/Gallery images\/Orig size\/ssArtwork 14.jpg",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/_\/img\/Gallery images\/Orig size\/ssArtwork 14.jpg",
-      "initialSize" : 1295505,
+      "initialSize" : 911067,
       "fileType" : 4096
     },
     "\/_\/Components\/less\/forms.less" : {
@@ -301,7 +301,18 @@
       "inputAbbreviatedPath" : "\/_\/img\/Gallery images\/Orig size\/ssArtwork 2.jpg",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/_\/img\/Gallery images\/Orig size\/ssArtwork 2.jpg",
-      "initialSize" : 1502875,
+      "initialSize" : 1073376,
+      "fileType" : 4096
+    },
+    "\/_\/img\/Gallery images\/ssArtwork 4.jpeg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_\/img\/Gallery images\/ssArtwork 4.jpeg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/_\/img\/Gallery images\/ssArtwork 4.jpeg",
+      "initialSize" : 1185576,
       "fileType" : 4096
     },
     "\/_\/Components\/less\/code.less" : {
@@ -337,17 +348,6 @@
       "outputStyle" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/_\/img\/Gallery images\/ssArtwork 4.jpeg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_\/img\/Gallery images\/ssArtwork 4.jpeg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/_\/img\/Gallery images\/ssArtwork 4.jpeg",
-      "initialSize" : 1185576,
-      "fileType" : 4096
     },
     "\/_\/img\/Landing\/ssLanding4.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -463,15 +463,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/_\/Components\/php\/googleMaps.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_\/Components\/php\/googleMaps.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_\/Components\/js\/affix.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -546,17 +537,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_\/img\/Icons\/facebook.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_\/img\/Icons\/facebook.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/_\/img\/Icons\/facebook.png",
-      "initialSize" : 3557,
-      "fileType" : 8192
-    },
     "\/_\/img\/Gallery images\/ssArtwork 14.jpeg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -579,6 +559,17 @@
       "initialSize" : 1391963,
       "fileType" : 4096
     },
+    "\/_\/img\/Icons\/facebook.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_\/img\/Icons\/facebook.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/_\/img\/Icons\/facebook.png",
+      "initialSize" : 3557,
+      "fileType" : 8192
+    },
     "\/_\/Components\/php\/snippet-carousel.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -597,15 +588,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_\/img\/Landing\/ssLanding6.jpg" : {
+    "\/_\/img\/carousel\/carouselSevenSis.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_\/img\/Landing\/ssLanding6.jpg",
+      "inputAbbreviatedPath" : "\/_\/img\/carousel\/carouselSevenSis.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/_\/img\/Landing\/ssLanding6.jpg",
-      "initialSize" : 1090270,
+      "outputAbbreviatedPath" : "\/_\/img\/carousel\/carouselSevenSis.jpg",
+      "initialSize" : 220571,
       "fileType" : 4096
     },
     "\/_\/img\/Gallery images\/ssArtwork 7.jpeg" : {
@@ -619,15 +610,15 @@
       "initialSize" : 1262808,
       "fileType" : 4096
     },
-    "\/_\/img\/carousel\/carouselSevenSis.jpg" : {
+    "\/_\/img\/Landing\/ssLanding6.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_\/img\/carousel\/carouselSevenSis.jpg",
+      "inputAbbreviatedPath" : "\/_\/img\/Landing\/ssLanding6.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/_\/img\/carousel\/carouselSevenSis.jpg",
-      "initialSize" : 220571,
+      "outputAbbreviatedPath" : "\/_\/img\/Landing\/ssLanding6.jpg",
+      "initialSize" : 1090270,
       "fileType" : 4096
     },
     "\/_\/Components\/less\/modals.less" : {
@@ -704,17 +695,6 @@
       "outputAbbreviatedPath" : "\/_\/Components\/js\/transition-ck.js",
       "fileType" : 64
     },
-    "\/_\/Components\/js\/jquery.zrssfeed.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_\/Components\/js\/jquery.zrssfeed.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/_\/Components\/js\/jquery.zrssfeed-ck.js",
-      "fileType" : 64
-    },
     "\/_\/Components\/less\/wells.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/_\/Components\/less\/wells.less",
@@ -731,6 +711,17 @@
       "outputStyle" : 0,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/_\/Components\/js\/jquery.zrssfeed.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_\/Components\/js\/jquery.zrssfeed.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/_\/Components\/js\/jquery.zrssfeed-ck.js",
+      "fileType" : 64
     },
     "\/_\/img\/Gallery images\/Orig size\/ssArtwork 8.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -829,7 +820,7 @@
       "inputAbbreviatedPath" : "\/_\/img\/Gallery images\/Orig size\/ssArtwork 1.jpg",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/_\/img\/Gallery images\/Orig size\/ssArtwork 1.jpg",
-      "initialSize" : 1577628,
+      "initialSize" : 879168,
       "fileType" : 4096
     },
     "\/_\/js\/myScript.js" : {
@@ -871,17 +862,6 @@
       "outputAbbreviatedPath" : "\/_\/Components\/js\/button-ck.js",
       "fileType" : 64
     },
-    "\/_\/img\/Landing\/ssLanding1.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_\/img\/Landing\/ssLanding1.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/_\/img\/Landing\/ssLanding1.jpg",
-      "initialSize" : 2352651,
-      "fileType" : 4096
-    },
     "\/_\/img\/pheebFace.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -891,6 +871,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/_\/img\/pheebFace.jpg",
       "initialSize" : 403125,
+      "fileType" : 4096
+    },
+    "\/_\/img\/Landing\/ssLanding1.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_\/img\/Landing\/ssLanding1.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/_\/img\/Landing\/ssLanding1.jpg",
+      "initialSize" : 2352651,
       "fileType" : 4096
     },
     "\/_\/img\/Icons\/call up.png" : {
@@ -915,17 +906,6 @@
       "initialSize" : 1100849,
       "fileType" : 4096
     },
-    "\/_\/img\/Gallery images\/ssArtwork 10.jpeg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_\/img\/Gallery images\/ssArtwork 10.jpeg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/_\/img\/Gallery images\/ssArtwork 10.jpeg",
-      "initialSize" : 1137541,
-      "fileType" : 4096
-    },
     "\/_\/img\/Landing\/ssLanding7.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -936,6 +916,17 @@
       "outputAbbreviatedPath" : "\/_\/img\/Landing\/ssLanding7.jpg",
       "initialSize" : 716216,
       "fileType" : 4096
+    },
+    "\/_\/Components\/js\/popover.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_\/Components\/js\/popover.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/_\/Components\/js\/popover-ck.js",
+      "fileType" : 64
     },
     "\/gallery.php" : {
       "ignoreWasSetByUser" : 0,
@@ -957,16 +948,16 @@
       "initialSize" : 804821,
       "fileType" : 4096
     },
-    "\/_\/Components\/js\/popover.js" : {
+    "\/_\/img\/Gallery images\/ssArtwork 10.jpeg" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_\/Components\/js\/popover.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/_\/Components\/js\/popover-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/_\/img\/Gallery images\/ssArtwork 10.jpeg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/_\/img\/Gallery images\/ssArtwork 10.jpeg",
+      "initialSize" : 1137541,
+      "fileType" : 4096
     },
     "\/_\/img\/Gallery images\/Orig size\/ssArtwork 4.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1079,16 +1070,14 @@
       "outputAbbreviatedPath" : "\/_\/Components\/js\/modal-ck.js",
       "fileType" : 64
     },
-    "\/_\/Components\/js\/tab.js" : {
+    "\/_\/Components\/php\/article-gallery.php" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_\/Components\/js\/tab.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/_\/Components\/js\/tab-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/_\/Components\/php\/article-gallery.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/_\/img\/Gallery images\/Orig size\/ssArtwork 21.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1109,13 +1098,13 @@
       "inputAbbreviatedPath" : "\/_\/img\/Gallery images\/Orig size\/ssArtwork 17.jpg",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/_\/img\/Gallery images\/Orig size\/ssArtwork 17.jpg",
-      "initialSize" : 1238935,
+      "initialSize" : 757177,
       "fileType" : 4096
     },
-    "\/_\/Components\/less\/labels.less" : {
+    "\/_\/Components\/less\/button-groups.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/_\/Components\/less\/labels.less",
-      "outputAbbreviatedPath" : "\/_\/Components\/css\/labels.css",
+      "inputAbbreviatedPath" : "\/_\/Components\/less\/button-groups.less",
+      "outputAbbreviatedPath" : "\/_\/Components\/css\/button-groups.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -1151,19 +1140,32 @@
       "outputAbbreviatedPath" : "\/_\/js\/bootstrap-ck.js",
       "fileType" : 64
     },
-    "\/_\/Components\/php\/article-gallery.php" : {
+    "\/_\/img\/Landing\/ssLanding3.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_\/Components\/php\/article-gallery.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/_\/img\/Landing\/ssLanding3.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/_\/img\/Landing\/ssLanding3.jpg",
+      "initialSize" : 2902445,
+      "fileType" : 4096
     },
-    "\/_\/Components\/less\/button-groups.less" : {
+    "\/_\/img\/Icons\/mail doc.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_\/img\/Icons\/mail doc.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/_\/img\/Icons\/mail doc.png",
+      "initialSize" : 4053,
+      "fileType" : 8192
+    },
+    "\/_\/Components\/less\/labels.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/_\/Components\/less\/button-groups.less",
-      "outputAbbreviatedPath" : "\/_\/Components\/css\/button-groups.css",
+      "inputAbbreviatedPath" : "\/_\/Components\/less\/labels.less",
+      "outputAbbreviatedPath" : "\/_\/Components\/css\/labels.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -1177,17 +1179,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/_\/img\/Landing\/ssLanding3.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_\/img\/Landing\/ssLanding3.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/_\/img\/Landing\/ssLanding3.jpg",
-      "initialSize" : 2902445,
-      "fileType" : 4096
-    },
     "\/_\/Components\/js\/_myScript.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 0,
@@ -1199,17 +1190,6 @@
       "outputAbbreviatedPath" : "\/_\/js\/myScript.js",
       "fileType" : 64
     },
-    "\/_\/img\/Icons\/mail doc.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_\/img\/Icons\/mail doc.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/_\/img\/Icons\/mail doc.png",
-      "initialSize" : 4053,
-      "fileType" : 8192
-    },
     "\/_\/Components\/php\/aside_blogPosts.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1218,6 +1198,17 @@
       "inputAbbreviatedPath" : "\/_\/Components\/php\/aside_blogPosts.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/_\/Components\/js\/tab.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_\/Components\/js\/tab.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/_\/Components\/js\/tab-ck.js",
+      "fileType" : 64
     },
     "\/_\/Components\/less\/normalize.less" : {
       "ieCompatibility" : 1,
@@ -1272,7 +1263,7 @@
       "inputAbbreviatedPath" : "\/_\/img\/Gallery images\/Orig size\/ssArtwork 7.jpg",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/_\/img\/Gallery images\/Orig size\/ssArtwork 7.jpg",
-      "initialSize" : 1111507,
+      "initialSize" : 1574914,
       "fileType" : 4096
     },
     "\/_\/img\/Gallery images\/ssArtwork 9.jpeg" : {
@@ -1384,27 +1375,21 @@
       "outputAbbreviatedPath" : "\/_\/Components\/js\/_bootstrap-ck.js",
       "fileType" : 64
     },
+    "\/_\/Components\/js\/alert.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_\/Components\/js\/alert.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/_\/Components\/js\/alert-ck.js",
+      "fileType" : 64
+    },
     "\/_\/Components\/less\/responsive-utilities.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/_\/Components\/less\/responsive-utilities.less",
       "outputAbbreviatedPath" : "\/_\/Components\/css\/responsive-utilities.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
-      "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
-      "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
-    "\/_\/Components\/less\/popovers.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/_\/Components\/less\/popovers.less",
-      "outputAbbreviatedPath" : "\/_\/Components\/css\/popovers.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -1427,27 +1412,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/_\/img\/Gallery images\/ssArtwork 2.jpeg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_\/img\/Gallery images\/ssArtwork 2.jpeg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/_\/img\/Gallery images\/ssArtwork 2.jpeg",
+      "initialSize" : 1265396,
+      "fileType" : 4096
+    },
     "\/_\/Components\/less\/utilities.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/_\/Components\/less\/utilities.less",
       "outputAbbreviatedPath" : "\/_\/Components\/css\/utilities.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
-      "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
-      "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
-    "\/_\/Components\/less\/jumbotron.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/_\/Components\/less\/jumbotron.less",
-      "outputAbbreviatedPath" : "\/_\/Components\/css\/jumbotron.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -1478,27 +1457,39 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/_\/img\/Gallery images\/ssArtwork 2.jpeg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
+    "\/_\/Components\/less\/popovers.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/_\/Components\/less\/popovers.less",
+      "outputAbbreviatedPath" : "\/_\/Components\/css\/popovers.css",
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_\/img\/Gallery images\/ssArtwork 2.jpeg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/_\/img\/Gallery images\/ssArtwork 2.jpeg",
-      "initialSize" : 1265396,
-      "fileType" : 4096
-    },
-    "\/_\/Components\/js\/alert.js" : {
-      "ignoreWasSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
       "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
       "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/_\/Components\/less\/jumbotron.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/_\/Components\/less\/jumbotron.less",
+      "outputAbbreviatedPath" : "\/_\/Components\/css\/jumbotron.css",
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_\/Components\/js\/alert.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/_\/Components\/js\/alert-ck.js",
-      "fileType" : 64
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/home.php" : {
       "ignoreWasSetByUser" : 0,
@@ -1569,15 +1560,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/Contact.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Contact.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_\/Components\/js\/dropdown.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1588,6 +1570,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/_\/Components\/js\/dropdown-ck.js",
       "fileType" : 64
+    },
+    "\/Contact.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/Contact.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/_\/img\/Gallery images\/ssArtwork 13.jpeg" : {
       "ignoreWasSetByUser" : 0,
@@ -1608,7 +1599,7 @@
       "inputAbbreviatedPath" : "\/_\/img\/Gallery images\/Orig size\/ssArtwork 3.jpg",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/_\/img\/Gallery images\/Orig size\/ssArtwork 3.jpg",
-      "initialSize" : 801687,
+      "initialSize" : 799776,
       "fileType" : 4096
     },
     "\/_\/img\/Landing\/ssLanding10.jpg" : {
@@ -1656,6 +1647,15 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_\/Components\/php\/article-contactForm.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_\/Components\/php\/aside-googleMaps.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_\/Components\/php\/aside-googleMaps.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1736,15 +1736,15 @@
       "initialSize" : 2424553,
       "fileType" : 4096
     },
-    "\/_\/img\/Gallery images\/ssArtwork 11.jpeg" : {
+    "\/_\/img\/Gallery images\/ssArtwork 8.jpeg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_\/img\/Gallery images\/ssArtwork 11.jpeg",
+      "inputAbbreviatedPath" : "\/_\/img\/Gallery images\/ssArtwork 8.jpeg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/_\/img\/Gallery images\/ssArtwork 11.jpeg",
-      "initialSize" : 1017366,
+      "outputAbbreviatedPath" : "\/_\/img\/Gallery images\/ssArtwork 8.jpeg",
+      "initialSize" : 1135574,
       "fileType" : 4096
     },
     "\/_\/Components\/js\/tooltip.js" : {
@@ -1769,15 +1769,15 @@
       "initialSize" : 1121463,
       "fileType" : 4096
     },
-    "\/_\/img\/Gallery images\/ssArtwork 8.jpeg" : {
+    "\/_\/img\/Gallery images\/ssArtwork 11.jpeg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_\/img\/Gallery images\/ssArtwork 8.jpeg",
+      "inputAbbreviatedPath" : "\/_\/img\/Gallery images\/ssArtwork 11.jpeg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/_\/img\/Gallery images\/ssArtwork 8.jpeg",
-      "initialSize" : 1135574,
+      "outputAbbreviatedPath" : "\/_\/img\/Gallery images\/ssArtwork 11.jpeg",
+      "initialSize" : 1017366,
       "fileType" : 4096
     },
     "\/contactValidation.php" : {

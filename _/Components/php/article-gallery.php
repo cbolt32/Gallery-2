@@ -7,13 +7,13 @@
                 </a>
             </div>
             <div class="col-lg-3 col-sm-4 col-xs-6" id="tn">
-                <h4 class="modal-header">Test One </h4>
+                <h4 class="modal-header">Looking Towards Belle Tu'</h4>
                 <a title="Image 2" href="#">
                     <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork 2.jpeg">
                 </a>
             </div>
             <div class="col-lg-3 col-sm-4 col-xs-6" id="tn">
-                <h4 class="modal-header">Test One</h4>
+                <h4 class="modal-header">Mount Caburn</h4>
                 <a title="Image 3" href="#">
                     <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork 3.jpeg">
                 </a>
@@ -37,7 +37,7 @@
                 </a>
             </div>
             <div class="col-lg-3 col-sm-4 col-xs-6" id="tn">
-                <h4 class="modal-header">Test One</h4>
+                <h4 class="modal-header">Sunny Veiw Newhaven Harbour</h4>
                 <a title="Image 7" href="#">
                     <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork 7.jpeg">
                 </a>
