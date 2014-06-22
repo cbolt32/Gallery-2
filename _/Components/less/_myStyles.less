@@ -1,14 +1,29 @@
-//my colors
+//Less Globals
 //colourlovers.com, pallete your happy now
-@white: #ffffff;
-@ds: #eaeaea;
-@gunpipe: #5f5f5f;
-@intoTheLight: #cddaec;
-@whereWillYouStay: #c2d4ec;
+@white:             #ffffff;
+@ds:                #eaeaea;
+@gunpipe:           #5f5f5f;
+@intoTheLight:      #cddaec;
+@whereWillYouStay:  #c2d4ec;
+
 //Additional Earthy colors!
-@aa: #434E3C;
-@bb: #F5F4EB;
-@cc: #893667;
+@aa:                #434E3C;
+@bb:                #F5F4EB;
+@cc:                #893667;
+
+//Screen Width Vars
+/* Custom, iPhone Retina */
+@retina:            320px;
+/* Extra Small Devices, Phones */
+@phone:             480px;
+/* Small Devices, Tablets */
+@tablet:            768px;
+/* Medium Devices, Desktops */
+@desktop:           992px;
+/* Large Devices, Wide Screens */
+@wideScreen:        1200px;
+
+//Fonts
 
 @font-face {
   font-family: 'bradley_hand_itc_ttregular';
@@ -374,15 +389,21 @@
   opacity: 1;
 }
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: @wideScreen) {
   .landingTitles li div h3 {
     font-size: 140px
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: @tablet) {
   .landingTitles li div h3 {
     font-size: 80px
+  }
+}
+//Hide titles when screen height causes overlap with landing header
+@media (max-height: 524px){
+  ul.landingTitles div h3 {
+    visibility: hidden;
   }
 }
 
@@ -413,6 +434,7 @@ body.landingPage {
   /* RGBa with 0.6 opacity */
   background: rgba(255, 255, 255, 0.5);
   border-radius: 10px;
+  box-shadow: 10px 20px 70px @aa;
 }
 
 .container > header.landingHeader h1 {
@@ -453,7 +475,7 @@ body.landingPage {
 }
 
 /* Media Queries */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: @tablet) {
   .container > header {
     text-align: center;
   }
@@ -463,7 +485,6 @@ body.landingPage {
     top: auto;
     left: auto;
     right: auto;
-
   }
 }
 
@@ -482,18 +503,19 @@ h3.landingWords {
   font-family: bradley_hand_itc_ttregular;
   font-size: 75px;
   color: @aa;
-  @media (max-width: 767px) {
+  @media (max-width: @desktop) {
     font-size: 500%;
     padding-left: 10px;
     text-align: center;
   }
-  @media (max-width: 500px) {
+  @media (max-width: @tablet) {
     font-size: 400%;
   }
-  @media (max-width: 461px) {
+  @media (max-width: @phone) {
     font-size: 300%;
     white-space: nowrap;
     overflow: hidden;
+    height: 65px;
   }
 }
 
@@ -502,18 +524,18 @@ container.gap {
   width: 49%;
 }
 
-@media all and (min-width: 420px) {
+@media all and (min-width: @retina) {
   .container.item, .container.gap {
     width: 32%;
   }
 
   section.navbar-nav {
     position: relative;
-    @media all and (min-width: 640px) {
+    @media all and (min-width: @tablet) {
       width: 100%;
       .container.item, .container.gap {
-        @media (max-width: 767px) {
-          margin-left: 20px;
+        @media (max-width: @tablet) {
+          margin-left: 05px;
           width: 23.5%;
         }
       }
@@ -526,8 +548,9 @@ container.gap {
 section.navbar-nav {
   position: relative;
   width: 100%;
-  @media (max-width: 767px) {
-    margin-left: 20px;
+  @media (max-width: @tablet) {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -548,7 +571,7 @@ section.navbar-nav {
 }
 
 .navbar-nav li a {
-  @media (max-width: 767px) {
+  @media (max-width: @tablet) {
     text-align: center;
   }
 }
@@ -573,7 +596,7 @@ section.navbar-nav {
 div#iconBar {
   padding-top: 10px;
   align-content: right;
-  @media (max-width: 767px) {
+  @media (max-width: @tablet) {
     text-align: center;
   }
 }
@@ -585,10 +608,10 @@ ul.icon-bar {
 #facebookIcon, #contactIcon, #linkedInIcon, #mailIcon, #blogIcon {
   height: 30px;
   width: 30px;
-  @media (min-width: 767px) {
+  @media (min-width: @tablet) {
     float: right;
   }
-  @media (max-resolution: 767px) {
+  @media (max-resolution: @tablet) {
     align-content: center;
   }
 }
@@ -616,6 +639,10 @@ p {
   font-family: 'fenix';
   font-size: 14pt;
   padding-right: 40px;
+  @media (max-width: @wideScreen){
+    padding-right: 0px;
+  }
+
 }
 
 .feedback {
@@ -664,7 +691,9 @@ div#tn > .modal-header {
   padding-bottom: 60px;
   font-family: 'BRADLEY_HAND_ITC_TTREGULAR', 'Arial Narrow', Arial, sans-serif;
   background-color: rgba(255, 255, 255, 0.4);
-
+  @media (max-width: @phone) {
+    font-size: 100%;
+  }
 }
 
 /*------Carousel Styling---------------*/
@@ -683,16 +712,18 @@ div.carousel-caption > h2 {
 
 /*------Blog Posts Article Styling------------*/
 #blogPosts {
+  background: lighten(@bb, 05%);
+  overflow-x:hidden;
   padding: 10px 20px 20px 20px;
   margin-top: 20px;
   max-height: 500px;
-  overflow: scroll;
-  box-shadow: 10px 20px 40px @aa;
-  border-radius: 10px 10px;
-  @media (max-width: 1318px) {
+  overflow-y: scroll;
+//  box-shadow: 10px 20px 40px @aa;
+//  border-radius: 10px 10px;
+  @media (max-width: @wideScreen) {
     margin-bottom: 50px;
   }
-  @media (max-width: 992px) {
+  @media (max-width: @desktop) {
     height: 250px;
     width: 80%;
     margin-bottom: 50px;
@@ -709,8 +740,96 @@ div.carousel-caption > h2 {
 }
 
 #blogPosts {
-  background: lighten(@bb, 05%);
+
 }
+
+/*
+ * Example of zRSSFeed Styling (Optional)
+ *
+ * Version: 1.2.0
+ * (c) Copyright 2011-2013, Zazar Ltd
+ *
+ */
+
+//body {
+//  margin: 1em 3em;
+//  font-family: Tahoma, Genevam, sans-serif;
+//}
+
+.rssFeed {
+  padding: 150px 150px;
+}
+
+.rssRow > p > a > img {
+width: 90%;
+  display: block;
+  align-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.rssRow > p > img {
+  width: 90%;
+  display: block;
+  align-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.rssFeed a {
+  color: @aa;
+  text-decoration: none;
+  font-size: 120%;
+}
+.rssFeed a:hover {
+  color: @aa;
+  text-decoration: underline;
+}
+
+.rssHeader a { padding: 0.2em 0;
+  font-family: bradley_hand_itc_ttregular;
+  font-size: 180%;
+}
+
+.rssHeader {
+  margin-bottom: 20px;
+}
+.rssBody ul {
+  list-style: none;
+}
+.rssBody ul, .rssRow, .rssRow h4, .rssRow p {
+  margin: 0;
+  padding: 0;
+}
+
+.rssRow {
+  padding: 0.8em;
+}
+.rssRow h4 {
+  font-size: 1.2em;
+}
+.rssRow div {
+  font-size: 90%;
+  font-family: fenix;
+  color: @aa;
+  margin: 0.2em 0 0.4em 0;
+}
+
+//.odd { background-color: #e8e8fc; }
+//.even { background-color: #d4d4e8; }
+.odd, .even {
+  border-bottom: 1px @aa solid;
+  box-shadow: 10px 05px 20px @aa;
+  margin-bottom: 40px;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.rssRow .rssMedia {
+  padding: 0.5em;
+  font-size: 1em;
+}
+
 
 /*------Contact Us Form Styling---------------*/
 
@@ -720,7 +839,7 @@ div.carousel-caption > h2 {
   }
 }
 
-#enquiry {
+#enquiryDetails {
   @media (max-width: 720px) {
     padding-left: 30px;
 
@@ -743,14 +862,41 @@ form.contactUs {
   margin-left: 120px;
 }
 
-form.contactUs {
-  border-right: 1px black solid;
+input#enquiryDetails {
+  line-height: 15px;
+  padding-top: 0px;
+  vertical-align: text-top;
 }
 
-input[name="enquiryText"] {
-//  height: 15px;
-  line-height: 15px;
+textarea{
+  resize: none;
 }
+
+label.control-label {
+  padding-bottom: 5px;
+  padding-top: 10px;
+  color: @aa;
+}
+
+legend {
+  border-bottom: 1px solid @aa;
+  padding-top: 15px;
+  color: @aa;
+  font-family: bradley_hand_itc_ttregular;
+}
+
+fieldset {
+   padding-left: 20px;
+ }
+
+input, select, textarea {
+  width: 90%;
+ }
+input:focus, textarea:focus {
+  outline: none !important;
+  box-shadow: 0px 5px 20px @aa;
+}
+
 
 
 /*------Footer Styling---------------*/
@@ -760,4 +906,11 @@ ul.breadcrumb {
   ul.breadcrumb > a {
     font: @aa;
   }
+}
+
+/*------Thank You Page ---------------*/
+#homeContent{
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
 }

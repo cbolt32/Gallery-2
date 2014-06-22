@@ -6,7 +6,7 @@ $(function () {
     $("#Home a:contains('Home')").parent().addClass('active'); //if page # is home, and an a tag contains "Home" add active class to parent (li) tag
     $("#about a:contains('About Myself')").parent().addClass('active');
     $("#gallery a:contains('Gallery')").parent().addClass('active');
-    $("#ContactMe a:contains('ContactMe')").parent().addClass('active');
+    $("#ContactMe a:contains('Contact')").parent().addClass('active');
 
 
     //show modals
@@ -26,6 +26,11 @@ $(function () {
     $('#myCarousel').carousel({
         interval: '3000'
 
+    });
+    $(document).ready(function () {
+        $('#blogPosts').rssfeed('http://shannonsait.wordpress.com/feed/', {
+            limit: 7
+        });
     });
 
 });

@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Shannon Sait | Contact Me</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0  maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0">
     <!-- Bootstrap -->
     <link href='http://fonts.googleapis.com/css?family=Fenix|Roboto+Condensed:300italic,400italic,700italic,400,700,300'
           rel='stylesheet' type='text/css'>

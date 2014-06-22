@@ -7,24 +7,25 @@ $myName = check_input($_POST['myName'], "Enter your name");
 $myEmail = check_input($_POST['myEmail'], "Enter Your Email");
 $phoneNum = check_input($_POST['phoneNum']);
 $enquiryType = check_input($_POST['enquiryType'], "Please Provide An Enquiry Type");
-$EnquiryText = check_input($_POST['enquiryText'], "Please Tell Us Your Enquiry");
+$enquiry = check_input($_POST['enquiry']);
 
 /* If e-mail is not valid show error message */
 if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/", $myEmail)) {
     show_error("E-mail address not valid");
+
 }
 
 /* Let's prepare the message for the e-mail */
+$subject = $enquiryType;
 $message = "Hello!
 
-Your contact form has been submitted by:
 
-Name: $yourName
-E-mail: $myEmail
+A contact form was submitted via your website from $myName ,
+who can be contacted on: $myEmail
 
+The $enquiryType contained the following detail;
 
-Enquiry Type? $enquiryType
-Enqruiy Text? $enquiryText
+$enquiry
 
 End of message
 ";
