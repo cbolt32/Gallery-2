@@ -17,6 +17,7 @@
 </head>
 
 <body id="landingPage">
+<?php include_once("analyticstracking.php") ?>
 
 <?php include "_/components/php/article-landingPage.php"; ?>
 

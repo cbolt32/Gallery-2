@@ -15,7 +15,7 @@
 
                 <div class="controls">
                     <input class="col col-lg-8" type="text" name="myName" id="myName" autofocus
-                           placeholder="Last, First" required/>
+                           placeholder="First, Last" required/>
                 </div>
                 <!--controls-->
             </section>

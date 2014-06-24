@@ -19,6 +19,7 @@
     <![endif]-->
 </head>
 <body id="gallery">
+<?php include_once("analyticstracking.php") ?>
 <section class="container" >
     <div class="content row" id="galleryContent">
         <?php include "_/components/php/header.php"; ?>

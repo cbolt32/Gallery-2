@@ -20,6 +20,7 @@
 
 </head>
 <body id="Home">
+<?php include_once("analyticstracking.php") ?>
 <section class="container">
     <div class="content row" id="homeContent">
         <?php include "_/components/php/header.php"; ?>

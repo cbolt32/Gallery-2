@@ -1,4 +1,4 @@
-<article class="into" xmlns="http://www.w3.org/1999/html">
+<article class="into" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
     <h2>Introduction</h2>
 
     <p>Welcome to my site, i hope you find something you like! I shall be keeping it updated as often as i can with news
@@ -12,8 +12,7 @@
     <P>I hope you have a great time looking around
         </br>
         </br>
-        <span class="sig pull-right">Shan <img src="/_/img/pheebFace.jpg"
-                                               style="height: 100px; width: 70px; border-radius: 100pc;"></span>
+        <span class="sig pull-right"></br>Shan <img class="profPic" src="/_/img/thumbnails/shanProf.jpg"></span>
         </br>
         </br>
     </P>

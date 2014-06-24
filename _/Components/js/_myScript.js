@@ -26,12 +26,15 @@ $(function () {
     $('#myCarousel').carousel({
         interval: '3000'
 
+
+    //zrss function defines src and limit for blog posts
     });
     $(document).ready(function () {
         $('#blogPosts').rssfeed('http://shannonsait.wordpress.com/feed/', {
             limit: 7
         });
     });
+
 
 
 

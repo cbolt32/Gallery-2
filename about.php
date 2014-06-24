@@ -17,6 +17,7 @@
     <![endif]-->
 </head>
 <body id="about">
+<?php include_once("analyticstracking.php") ?>
 <section class="container">
     <div class="content row" id="aboutContent">
         <?php include "_/components/php/header.php"; ?>

@@ -18,6 +18,7 @@
 
 </head>
 <body id="ContactMe">
+<?php include_once("analyticstracking.php") ?>
 <section class="container">
     <div class="content row" id="contactContent">
         <?php include "_/components/php/header.php"; ?>

@@ -1,6 +1,6 @@
 <header class="clearfix">
     <!--        <section id="branding">-->
-    <div id="headerTitle">Shannon Sait</div>
+    <div id="headerTitle">Shannon Sait <span class="qual"> <sup><sup>BA Hons, Fine Art</sup></sup></span></div>
 
     <!--        </section>-->
     <!--Branding-->

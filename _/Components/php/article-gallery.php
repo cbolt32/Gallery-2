@@ -3,127 +3,127 @@
             <div class="col-lg-3 col-sm-4 col-xs-6" id="tn">
                 <h4 class="modal-header">A wet blustery day in Newhaven</h4>
                 <a title="Image 1" href="#">
-                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork 1.jpeg">
+                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork-1.JPEG">
                 </a>
             </div>
             <div class="col-lg-3 col-sm-4 col-xs-6" id="tn">
                 <h4 class="modal-header">Looking Towards Belle Tu'</h4>
                 <a title="Image 2" href="#">
-                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork 2.jpeg">
+                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork-2.JPEG">
                 </a>
             </div>
             <div class="col-lg-3 col-sm-4 col-xs-6" id="tn">
                 <h4 class="modal-header">Mount Caburn</h4>
                 <a title="Image 3" href="#">
-                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork 3.jpeg">
+                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork-3.JPEG">
                 </a>
             </div>
             <div class="col-lg-3 col-sm-4 col-xs-6" id="tn">
                 <h4 class="modal-header">Walking along the River Ouse to Piddinghoe</h4>
                 <a title="Image 4" href="#">
-                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork 4.jpeg">
+                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork-4.JPEG">
                 </a>
             </div>
             <div class="col-lg-3 col-sm-4 col-xs-6" id="tn">
                 <h4 class="modal-header">A blue day at Newhaven Harbour</h4>
                 <a title="Image 5" href="#">
-                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork 5.jpeg">
+                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork-5.JPEG">
                 </a>
             </div>
             <div class="col-lg-3 col-sm-4 col-xs-6" id="tn">
                 <h4 class="modal-header">Looking towards "Belle Fu" from Seaford Head</h4>
                 <a title="Image 6" href="#">
-                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork 6.jpeg">
+                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork-6.JPEG">
                 </a>
             </div>
             <div class="col-lg-3 col-sm-4 col-xs-6" id="tn">
                 <h4 class="modal-header">Sunny Veiw Newhaven Harbour</h4>
                 <a title="Image 7" href="#">
-                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork 7.jpeg">
+                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork-7.JPEG">
                 </a>
             </div>
             <div class="col-lg-3 col-sm-4 col-xs-6" id="tn">
                 <h4 class="modal-header">Spring rain in April</h4>
                 <a title="Image 8" href="#">
-                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork 8.jpeg">
+                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork-8.JPEG">
                 </a>
             </div>
             <div class="col-lg-3 col-sm-4 col-xs-6" id="tn">
                 <h4 class="modal-header">Dreaming of the downs</h4>
                 <a title="Image 9" href="#">
-                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork 9.jpeg">
+                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork-9.JPEG">
                 </a>
             </div>
             <div class="col-lg-3 col-sm-4 col-xs-6" id="tn">
                 <h4 class="modal-header">Hot Spring day, Newhaven Harbour</h4>
                 <a title="Image 10" href="#">
-                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork 10.jpeg">
+                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork-10.JPEG">
                 </a>
             </div>
             <div class="col-lg-3 col-sm-4 col-xs-6" id="tn">
                 <h4 class="modal-header">Ploughed fields enroute to Lewis</h4>
                 <a title="Image 11" href="#">
-                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork 11.jpeg">
+                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork-11.JPEG">
                 </a>
             </div>
             <div class="col-lg-3 col-sm-4 col-xs-6" id="tn">
                 <h4 class="modal-header">Spring tides on the River Ouse, in the Ouse Valley</h4>
                 <a title="Image 12" href="#">
-                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork 12.jpeg">
+                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork-12.JPEG">
                 </a>
             </div>
             <div class="col-lg-3 col-sm-4 col-xs-6" id="tn">
                 <h4 class="modal-header">Spring tides</h4>
                 <a title="Image 13" href="#">
-                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork 13.jpeg">
+                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork-13.JPEG">
                 </a>
             </div>
             <div class="col-lg-3 col-sm-4 col-xs-6" id="tn">
                 <h4 class="modal-header">Torrential rain, Spring in the Ouse Valley</h4>
                 <a title="Image 14" href="#">
-                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork 14.jpeg">
+                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork-14.JPEG">
                 </a>
             </div>
             <div class="col-lg-3 col-sm-4 col-xs-6" id="tn">
                 <h4 class="modal-header">Chalky runoff following a passing storm</h4>
                 <a title="Image 15" href="#">
-                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork 15.jpeg">
+                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork-15.JPEG">
                 </a>
             </div>
             <div class="col-lg-3 col-sm-4 col-xs-6" id="tn">
                 <h4 class="modal-header">Boiling oceans, Newhaven Harbour</h4>
                 <a title="Image 16" href="#">
-                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork 16.jpeg">
+                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork-16.JPEG">
                 </a>
             </div>
             <div class="col-lg-3 col-sm-4 col-xs-6" id="tn">
                 <h4 class="modal-header">Chalk cliffs</h4>
                 <a title="Image 17" href="#">
-                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork 17.jpeg">
+                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork-17.JPEG">
                 </a>
             </div>
             <div class="col-lg-3 col-sm-4 col-xs-6" id="tn">
                 <h4 class="modal-header">Look towards Mt Caburn from the Ouse Valley</h4>
                 <a title="Image 18" href="#">
-                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork 18.jpeg">
+                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork-18.JPEG">
                 </a>
             </div>
             <div class="col-lg-3 col-sm-4 col-xs-6" id="tn">
                 <h4 class="modal-header">Downland Cliffs</h4>
                 <a title="Image 19" href="#">
-                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork 19.jpeg">
+                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork-19.JPEG">
                 </a>
             </div>
             <div class="col-lg-3 col-sm-4 col-xs-6" id="tn">
                 <h4 class="modal-header">Dapple sky, from the Ouse Valley</h4>
                 <a title="Image 20" href="#">
-                    <img class="thumbnail  img-responsive" src="_/img/Gallery images/ssArtwork 20.jpeg">
+                    <img class="thumbnail  img-responsive" src="_/img/Gallery images/ssArtwork-20.JPEG">
                 </a>
             </div>
             <div class="col-lg-3 col-sm-4 col-xs-6" id="tn">
                 <h4 class="modal-header">Cuckmere beach</h4>
                 <a title="Image 21" href="#">
-                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork 21.jpeg">
+                    <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork-21.JPEG">
                 </a>
             </div>
         </div>

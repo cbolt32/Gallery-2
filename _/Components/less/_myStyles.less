@@ -408,13 +408,12 @@
   }
 }
 
-/* General Demo Style */
+/* General Style - Landing Page */
 body.landingPage {
   font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
   background: #000;
   font-weight: 400;
   font-size: 115px;
-  //  color: #aa3e03;
   overflow-y: scroll;
   overflow-x: hidden;
 }
@@ -432,7 +431,6 @@ body.landingPage {
   text-align: center;
   /* Fallback for web browsers that doesn't support RGBa */
   background: rgb(0, 0, 0);
-  /* RGBa with 0.6 opacity */
   background: rgba(255, 255, 255, 0.5);
   border-radius: 10px;
   box-shadow: 10px 20px 70px @aa;
@@ -457,7 +455,6 @@ body.landingPage {
 }
 
 .landingButton {
-  //  background: rgba(255, 255, 255, 0.6);
   margin-top: 30px;
   background-color: @bb;
   a {
@@ -475,7 +472,7 @@ body.landingPage {
   }
 }
 
-/* Media Queries */
+/* Media Queries Landing Page */
 @media screen and (max-width: @tablet) {
   .container > header {
     text-align: center;
@@ -544,6 +541,18 @@ container.gap {
   }
 }
 
+//Display header qualification, until @tablet, then hides and wraps to next line
+.qual {
+  font-size: 0.8em;
+  @media (max-width: @desktop){
+    font-size: 0.6em;
+  }
+  @media (max-width: @tablet){
+    visibility: hidden;
+    display: block;
+  }
+}
+
 /*------Nav Bar Styling---------------*/
 
 section.navbar-nav {
@@ -591,7 +600,6 @@ section.navbar-nav {
       background-color: #ffffff;
     }
   }
-
 }
 
 div#iconBar {
@@ -612,7 +620,7 @@ ul.icon-bar {
   @media (min-width: @tablet) {
     float: right;
   }
-  @media (max-resolution: @tablet) {
+  @media (max-width: @tablet) {
     align-content: center;
   }
 }
@@ -703,7 +711,6 @@ span.sig {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
-  //height: 10%;
 }
 
 div#tn > .modal-header {
@@ -740,7 +747,6 @@ div.carousel-caption > h2 {
 
 /*------Blog Posts Article Styling------------*/
 #blogPosts {
-  //  background: lighten(@bb, 05%);
   overflow-x: hidden;
   padding: 0px 20px 20px 0px;
   margin-top: 20px;
@@ -748,8 +754,6 @@ div.carousel-caption > h2 {
   overflow-y: scroll;
   margin-right: auto;
   margin-left: auto;
-  //  box-shadow: 10px 20px 40px @aa;
-  //  border-radius: 10px 10px;
   @media (max-width: @wideScreen) {
     margin-bottom: 50px;
   }
@@ -766,9 +770,7 @@ div.carousel-caption > h2 {
 }
 
 #blogPostArticle, h3 {
-  //  margin-left: 10px;
   margin-top: 30px;
-  //  text-align: center;
 }
 
 /*
@@ -776,16 +778,10 @@ div.carousel-caption > h2 {
  *
  * Version: 1.2.0
  * (c) Copyright 2011-2013, Zazar Ltd
- *
+ *  Modified to suit by Chris Bolton 22/06/12
  */
 
-//body {
-//  margin: 1em 3em;
-//  font-family: Tahoma, Genevam, sans-serif;
-//}
-
 .rssFeed {
-  //  padding: 150px 150px;
   text-align: center;
   padding-left: 40px;
 }
@@ -853,18 +849,14 @@ div.carousel-caption > h2 {
   margin: 0.2em 0 0.4em 0;
 }
 
-//.odd { background-color: #e8e8fc; }
-//.even { background-color: #d4d4e8; }
 .odd, .even {
   border-bottom: 1px @aa solid;
   box-shadow: 10px 05px 20px @aa;
   margin-bottom: 40px;
-  //  margin-left: 1%;
   margin-right: 1%;
 }
 
 .rssRow .rssMedia {
-  //  padding: 0.5em;
   font-size: 1em;
 }
 
@@ -968,14 +960,33 @@ input:focus, textarea:focus {
 /*------Footer Styling---------------*/
 #footer {
   background: @bb;
-//  margin-top: 50px;
+  margin-top: 10px;
   height: 100px;
-  #footer  {
-    font: @aa;
+  border-radius: 10px 40px 10px 40px;
+  font: @aa;
+}
+ul.breadcrumb{
+  background-color: rgba(255, 255, 255, 0);
+  font-family: fenix;
+  padding-top: 15px;
+  li > a {
+  color: @aa;
+    @media (max-width: @phone) {
+      font-size: 70%;
+      text-align: center;
+    }
   }
 }
-
-
+nav#footer > p {
+  font-family: fenix;
+  color: @aa;
+  font-size: 80%;
+  margin-bottom: 30px;
+  text-align: right;
+  @media (max-width: @phone) {
+    text-align: center;
+  }
+}
 
 /*------Thank You Page ---------------*/
 #thankyou {
@@ -993,3 +1004,13 @@ input:focus, textarea:focus {
     font-size: 100%;
   }
 }
+
+
+img.profPic {
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 90px lighten(@cc, 40%);
+}
+
+
