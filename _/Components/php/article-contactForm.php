@@ -1,5 +1,5 @@
 <article class="contactForm" xmlns="http://www.w3.org/1999/html">
-    <h2>Make Contact</h2>
+    <h2 class="contactTitle" >Make Contact</h2>
     <article>
        <p> Please contact me if you wish to discuss any opportunities, if you would like to offer feedback on my site or any pieces of work you have seen in my portfolio. Or if you would just like to say, Hi!</p></br>
         <p>Feel free also to explorer the various social media links above and make contact via those if you prefer.</p>

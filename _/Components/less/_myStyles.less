@@ -22,6 +22,8 @@
 @desktop: 992px;
 /* Large Devices, Wide Screens */
 @wideScreen: 1200px;
+/*To handle media query for profile pic spacing*/
+@profPicFix: 600px;
 
 //Fonts
 
@@ -638,6 +640,24 @@ h1, h2, h3, h4, h5, h6, {
   box-shadow: 20px, 20px, 40px @aa;
 }
 
+img.profPic {
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 90px lighten(@cc, 40%);
+  @media (max-width: @profPicFix){
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+
+  }
+}
+
+.introTitle, .inspireTitle, .galleryTitle, .contactTitle, .blogTitle, .newsTitle, .feedbackTitle, .studioTitle, .blogTitle {
+  border-bottom: 1px dotted @aa;
+}
+
+
 body#Home, body#gallery, body#about, body#ContactMe, body#Thanks {
   background: darken(@bb, 15%);
   margin-top: 30px;
@@ -699,11 +719,41 @@ span.sig {
 .news > .newsTitles {
   margin-top: 20px;
 }
+.news {
+  height: 250px;
+  overflow: scroll;
+  @media (max-width: @tablet) {
+    margin-top: 75px;
+  }
+  @media (max-width: @wideScreen){
+    margin-top: 100px;
+  }
+}
 
 /*------Gallery Styling---------------*/
 .thumbnail {
   height: 200%;
   width: 300%;
+}
+
+.modal-dialog {
+  width: 95%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: auto;
+  padding-left: auto;
+  position: relative;
+  align-content: center;
+  @media (min-width: 1300px){
+  padding-left: 5%;
+  }
+  @media (min-width: 1400px){
+    padding-left: 10%;
+  }
+  @media (min-width: 1788px){
+    padding-left: 15%;
+  }
 }
 
 #modalimage {
@@ -1006,11 +1056,7 @@ nav#footer > p {
 }
 
 
-img.profPic {
-  height: 100px;
-  width: 100px;
-  border-radius: 20px;
-  box-shadow: 10px 10px 90px lighten(@cc, 40%);
-}
+
+
 
 

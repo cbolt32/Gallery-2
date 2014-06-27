@@ -1,4 +1,4 @@
-        <h1>Gallery</h1></br>
+        <h1 class="galleryTitle" >Gallery</h1></br>
         <div class="row">
             <div class="col-lg-3 col-sm-4 col-xs-6" id="tn">
                 <h4 class="modal-header">A wet blustery day in Newhaven</h4>
@@ -7,6 +7,7 @@
                 </a>
             </div>
             <div class="col-lg-3 col-sm-4 col-xs-6" id="tn">
+
                 <h4 class="modal-header">Looking Towards Belle Tu'</h4>
                 <a title="Image 2" href="#">
                     <img class="thumbnail img-responsive" src="_/img/Gallery images/ssArtwork-2.JPEG">

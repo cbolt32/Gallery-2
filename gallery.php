@@ -7,7 +7,7 @@
     <link href='http://fonts.googleapis.com/css?family=Fenix|Roboto+Condensed:300italic,400italic,700italic,400,700,300'
           rel='stylesheet' type='text/css'>
     <link href="_/css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="_/css/myStyles.css">
+    <link rel="stylesheet" href="_/css/old_myStyles.css">
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="_/js/bootstrap.js"></script>
     <script src="_/js/myScript.js"></script>

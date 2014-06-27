@@ -1,5 +1,6 @@
+<h2 class="newsTitle">News</h2>
 <article class="news" xmlns="http://www.w3.org/1999/html">
-    <h2>News</h2>
+
     <h4 class="newsTitles" >Art Fair</h4>
     <p class="newsPost well">Ive been selected to appear in a prestigious art fair in Brighton on April 10th 2014, I am excited to finally exhibit many of my pieces. Be sure to follow my blog for further information
     </p>

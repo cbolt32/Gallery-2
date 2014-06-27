@@ -1,5 +1,5 @@
 <article class="Biog" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
-    <h2>Biography</h2>
+    <h2 class="blogTitle">Biography</h2>
 
     <p>The artistic journey to this point has been far from an easy one. Having completed my degree in fine art in 1992
        from Brighton University, despite pockets of activity, progress and development has been seriously affected and

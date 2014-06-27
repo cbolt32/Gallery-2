@@ -1,4 +1,4 @@
-    <h2>My Studio</h2>
+    <h2 class="studioTitle">My Studio</h2>
 
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <script>

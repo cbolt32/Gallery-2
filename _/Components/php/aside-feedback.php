@@ -1,5 +1,5 @@
 <section class="feedbackAside">
-    <h2>Feedback</h2>
+    <h2 class="feedbackTitle">Feedback</h2>
 
     <div class="feedback">
 

@@ -1,5 +1,5 @@
 <article class="inpire">
-    <h2>The Inspiration</h2>
+    <h2 class="inspireTitle">The Inspiration</h2>
 
     <p>
         Welcome to the part of my website where you can learn a little more about the ideas and inspiration behind the
