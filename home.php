@@ -7,7 +7,7 @@
     <!-- Bootstrap -->
 
     <link href="_/css/bootstrap.css" rel="stylesheet">
-    <link href="_/css/old_myStyles.css" rel="stylesheet">
+    <link href="_/css/myStyles.css" rel="stylesheet">
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="_/js/bootstrap.js"></script>
     <script src="_/js/myScript.js"></script>
@@ -20,24 +20,24 @@
 
 </head>
 <body id="Home">
-<?php include_once("analyticstracking.php") ?>
+<?php include_once("_/Components/php/analyticstracking.php") ?>
 <section class="container">
     <div class="content row" id="homeContent">
-        <?php include "_/components/php/header.php"; ?>
-        <?php include "_/components/php/snippet-carousel.php"; ?>
+        <?php include "_/Components/php/header.php"; ?>
+        <?php include "_/Components/php/snippet-carousel.php"; ?>
         <section class="main col col-lg-8">
-            <?php include "_/components/php/article-intro.php"; ?>
+            <?php include "_/Components/php/article-intro.php"; ?>
 
         </section>
         <!--main content-->
         <section class="sidebar col col-lg-4">
-            <?php include "_/components/php/article-news.php"; ?>
+            <?php include "_/Components/php/article-news.php"; ?>
             <?php include "_/Components/php/aside_blogPosts.php"; ?>
         </section>
         <!--sidebar-->
     </div>
     <!--content-->
-    <?php include "_/components/php/footer.php"; ?>
+    <?php include "_/Components/php/footer.php"; ?>
 </section>
 <!--container-->
 

@@ -7,7 +7,7 @@
     <link href='http://fonts.googleapis.com/css?family=Fenix|Roboto+Condensed:300italic,400italic,700italic,400,700,300'
           rel='stylesheet' type='text/css'>
     <link href="_/css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="_/css/old_myStyles.css">
+    <link rel="stylesheet" href="_/css/myStyles.css">
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="_/js/bootstrap.js"></script>
     <script src="_/js/myScript.js"></script>
@@ -19,18 +19,18 @@
     <![endif]-->
 </head>
 <body id="gallery">
-<?php include_once("analyticstracking.php") ?>
+<?php include_once("_/Components/php/analyticstracking.php") ?>
 <section class="container" >
     <div class="content row" id="galleryContent">
-        <?php include "_/components/php/header.php"; ?>
-        <?php include "_/components/php/article-gallery.php"; ?>
+        <?php include "_/Components/php/header.php"; ?>
+        <?php include "_/Components/php/article-gallery.php"; ?>
         <section class="main col col-lg-8">
 
         </section>
         <!--main content-->
     </div>
     <!--content-->
-    <?php include "_/components/php/footer.php"; ?>
+    <?php include "_/Components/php/footer.php"; ?>
 </section>
 <!--container-->
 

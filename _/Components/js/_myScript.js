@@ -15,7 +15,7 @@ $(function () {
             show: 'true'
         });
 
-        var mysrc = this.src.substr(0, this.src.length - 5) + '.jpeg';
+        var mysrc = this.src.substr(0, this.src.length - 5) + '.JPEG';
         $('#modalimage').attr('src', mysrc);
         $('#modalimage').on('click', function () {
             $('#modal').modal('hide');

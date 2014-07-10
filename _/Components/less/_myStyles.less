@@ -404,10 +404,10 @@
 }
 
 //Hide titles when screen height causes overlap with landing header
-@media (max-height: 524px) {
+//@media (max-height: 524px) {
   ul.landingTitles div h3 {
-    visibility: hidden;
-  }
+    visibility: hidden; //Hidden, shan decided against, but may come back
+  //}
 }
 
 /* General Style - Landing Page */
@@ -645,12 +645,20 @@ img.profPic {
   width: 100px;
   border-radius: 20px;
   box-shadow: 10px 10px 90px lighten(@cc, 40%);
-  @media (max-width: @profPicFix){
-    height: 50px;
-    width: 50px;
-    border-radius: 10px;
+//  @media (max-width: @profPicFix){
+//    height: 50px;
+//    width: 50px;
+//    border-radius: 10px;
+//
+//  }
+}
 
-  }
+div.sig {
+  font-family: bradley_hand_itc_ttregular;
+  color: hotpink;
+  font-size: +130%;
+  text-align: right;
+  margin-right: 50px;
 }
 
 .introTitle, .inspireTitle, .galleryTitle, .contactTitle, .blogTitle, .newsTitle, .feedbackTitle, .studioTitle, .blogTitle {
@@ -696,12 +704,6 @@ aside > p > a {
   padding-bottom: 00;
 }
 
-span.sig {
-  font-family: bradley_hand_itc_ttregular;
-  color: hotpink;
-  font-size: +130%;
-}
-
 /*------News Styling---------------*/
 .well {
   color: @aa;
@@ -722,15 +724,13 @@ span.sig {
 .news {
   height: 250px;
   overflow: scroll;
-  @media (max-width: @tablet) {
-    margin-top: 75px;
-  }
-  @media (max-width: @wideScreen){
-    margin-top: 100px;
-  }
 }
 
 /*------Gallery Styling---------------*/
+.galleryHeading{
+  margin-top: 0px !important;
+}
+
 .thumbnail {
   height: 200%;
   width: 300%;
@@ -763,7 +763,7 @@ span.sig {
   vertical-align: middle;
 }
 
-div#tn > .modal-header {
+.modal-header {
   position: relative;
   left: auto;
   right: auto;
@@ -780,6 +780,93 @@ div#tn > .modal-header {
     font-size: 100%;
   }
 }
+
+//styling for sold ribbons
+.wrapper {
+  position: relative;
+  z-index: 90;
+}
+
+.ribbon-wrapper-red {
+  width: 85px;
+  height: 88px;
+  overflow: hidden;
+  position: absolute;
+  top: -3px;
+  right: -3px;
+}
+
+.ribbon-red {
+  font: bold 15px Sans-Serif;
+  color: white !important;
+  text-align: center;
+  text-shadow: rgba(0,0,0,0.8) 0px 1px 0px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform:    rotate(45deg);
+  -ms-transform:     rotate(45deg);
+  -o-transform:      rotate(45deg);
+  position: relative;
+  padding: 7px 0;
+  left: -5px;
+  top: 15px;
+  width: 120px;
+  background-color: #ffffff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff5b60), to(#df0d15));
+  background-image: -webkit-linear-gradient(top, #ff5b60, #df0d15);
+  background-image:    -moz-linear-gradient(top, #ff5b60, #df0d15);
+  background-image:     -ms-linear-gradient(top, #ff5b60, #df0d15);
+  background-image:      -o-linear-gradient(top, #ff5b60, #df0d15);
+  color: #6a6340;
+  -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+  -moz-box-shadow:    0px 0px 3px rgba(0,0,0,0.3);
+  box-shadow:         0px 0px 3px rgba(0,0,0,0.3);
+}
+
+.ribbon-red:before, .ribbon-red:after {
+  content: "";
+  border-top:   3px solid darken(#c50a0e, 20%);
+  border-left:  3px solid transparent;
+  border-right: 3px solid transparent;
+  position:absolute;
+  bottom: -3px;
+}
+
+.ribbon-red:before {
+  left: 0;
+}
+.ribbon-red:after {
+  right: 0;
+}
+
+
+/* Thumbnail flags to be changed to visible when artwork is sold*/
+#tn1 .ribbon-red { visibility: hidden;}
+#tn2 .ribbon-red { visibility: hidden; }
+#tn3 .ribbon-red { visibility: hidden; }
+#tn4 .ribbon-red { visibility: hidden; }
+#tn5 .ribbon-red { visibility: hidden; }
+#tn6 .ribbon-red { visibility: hidden; }
+#tn7 .ribbon-red { visibility: hidden; }
+#tn8 .ribbon-red { visibility: hidden; }
+#tn9 .ribbon-red { visibility: hidden; }
+#tn10 .ribbon-red { visibility: hidden; }
+#tn11 .ribbon-red { visibility: hidden; }
+#tn12 .ribbon-red { visibility: hidden; }
+#tn13 .ribbon-red { visibility: hidden; }
+#tn14 .ribbon-red { visibility: hidden; }
+#tn15 .ribbon-red { visibility: hidden; }
+#tn16 .ribbon-red { visibility: hidden; }
+#tn17 .ribbon-red { visibility: hidden; }
+#tn18 .ribbon-red { visibility: hidden; }
+#tn19 .ribbon-red { visibility: hidden; }
+#tn20 .ribbon-red { visibility: hidden; }
+#tn21 .ribbon-red { visibility: hidden; }
+#tn22 .ribbon-red { visibility: hidden; }
+#tn23 .ribbon-red { visibility: hidden; }
+#tn24 .ribbon-red { visibility: hidden; }
+#tn25 .ribbon-red { visibility: hidden; }
+#tn26 .ribbon-red { visibility: hidden; }
+#tn27 .ribbon-red { visibility: hidden; }
 
 /*------Carousel Styling---------------*/
 div.carousel-caption > h2 {
@@ -994,6 +1081,8 @@ input:focus, textarea:focus {
   -o-webkit-box-shadow: 0px 5px 20px @aa;
 }
 
+
+
 /*------Google Map Styling---------------*/
 #map_canvas {
   width: 350px;
@@ -1054,9 +1143,3 @@ nav#footer > p {
     font-size: 100%;
   }
 }
-
-
-
-
-
-

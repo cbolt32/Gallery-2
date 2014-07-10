@@ -7,7 +7,7 @@
     <link href='http://fonts.googleapis.com/css?family=Fenix|Roboto+Condensed:300italic,400italic,700italic,400,700,300'
           rel='stylesheet' type='text/css'>
     <link href="_/css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="_/css/old_myStyles.css">
+    <link rel="stylesheet" href="_/css/myStyles.css">
     <!--Script to redirect page to home after specified dealy    -->
     <script type="text/javascript">
         var timer = 3;

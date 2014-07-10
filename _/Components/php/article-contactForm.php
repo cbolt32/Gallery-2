@@ -1,12 +1,12 @@
 <article class="contactForm" xmlns="http://www.w3.org/1999/html">
     <h2 class="contactTitle" >Make Contact</h2>
     <article>
-       <p> Please contact me if you wish to discuss any opportunities, if you would like to offer feedback on my site or any pieces of work you have seen in my portfolio. Or if you would just like to say, Hi!</p></br>
+       <p> Please contact me if you are interested in purchasing any of the pieces on display, you wish to discuss any opportunities, or if you would like to offer feedback on my site or any pieces of work you have seen in my portfolio. </p></br>
         <p>Feel free also to explorer the various social media links above and make contact via those if you prefer.</p>
     </article>
 
     <form class="contactUs form-horizontal" id="contactUs" method="post" action="contactValidation.php">
-        <!--        todo-Chris redirect and styling on thankyou page-->
+
         <fieldset id="personalInfo">
             <legend>Personal Information</legend>
 
@@ -54,7 +54,7 @@
                     <option>Please Choose One...</option>
                     <option value="General Enquiry">General Enquiry</option>
                     <option value="Feedback">Feedback</option>
-                    <option value="Other Enquiry">Other Enquiry</option>
+                    <option value="sales">Sales</option>
                 </select>
             </section>
             </br>

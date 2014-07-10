@@ -4278,7 +4278,7 @@
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_\/css\/old_myStyles.css",
+      "inputAbbreviatedPath" : "\/_\/css\/myStyles.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
@@ -4518,7 +4518,7 @@
     "\/_\/Components\/less\/_myStyles.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/_\/Components\/less\/_myStyles.less",
-      "outputAbbreviatedPath" : "\/_\/css\/old_myStyles.css",
+      "outputAbbreviatedPath" : "\/_\/css\/myStyles.css",
       "outputPathIsSetByUser" : 1,
       "strictUnits" : 0,
       "relativeURLS" : 0,

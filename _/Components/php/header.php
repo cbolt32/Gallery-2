@@ -1,4 +1,6 @@
 <header class="clearfix">
+    <meta name="description" content="Shannon Sait, Artists Gallery">
+    <meta name="keywords" content="Shannon Sait, artist, gallery, painting, brighton, sussex, newhaven, art fair">
     <!--        <section id="branding">-->
     <div id="headerTitle">Shannon Sait <span class="qual"> <sup><sup>BA Hons, Fine Art</sup></sup></span></div>
 
@@ -15,11 +17,11 @@
         <div id="iconBar">
             <ul class="icon-bar">
                 <li>
-                    <a href="contact.php"><img id="contactIcon" src="_/img/Icons/call up.png" alt=""/>
+                    <a href="Contact.php"><img id="contactIcon" src="_/img/Icons/call up.png" alt=""/>
                     </a>
                 </li>
                 <li>
-                    <a href="mailto:cbolt32@gmail.com"><img id="mailIcon" src="_/img/Icons/mail doc.png" alt=""/>
+                    <a href="mailto:enquirys@shannonsait.co.uk"><img id="mailIcon" src="_/img/Icons/mail doc.png" alt=""/>
                     </a>
                 </li>
                 <li>

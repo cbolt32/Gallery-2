@@ -35,7 +35,7 @@
 
             <div class="container">
                 <div class="carousel-caption">
-                    <h2>My Insipration</h2>
+                    <h2>My Inspiration</h2>
 
                     <p></p>
                 </div>

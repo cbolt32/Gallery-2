@@ -7,7 +7,7 @@
     <link href='http://fonts.googleapis.com/css?family=Fenix|Roboto+Condensed:300italic,400italic,700italic,400,700,300'
           rel='stylesheet' type='text/css'>
     <link href="_/css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="_/css/old_myStyles.css">
+    <link rel="stylesheet" href="_/css/myStyles.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,24 +18,24 @@
 
 </head>
 <body id="ContactMe">
-<?php include_once("analyticstracking.php") ?>
+<?php include_once("_/Components/php/analyticstracking.php") ?>
 <section class="container">
     <div class="content row" id="contactContent">
-        <?php include "_/components/php/header.php"; ?>
-        <?php include "_/components/php/snipet-carousel.php"; ?>
+        <?php include "_/Components/php/header.php"; ?>
+<!--        --><?php //include "_/Components/php/snipet-carousel.php"; ?>
         <section class="main col col-lg-8">
-            <?php include "_/components/php/article-contactForm.php"; ?>
+            <?php include "_/Components/php/article-contactForm.php"; ?>
         </section>
         <!--main content-->
         <section class="sidebar col col-lg-4">
-            <?php include "_/components/php/aside-googleMaps.php"; ?>
-            <?php include "_/components/php/aside-feedback.php"; ?>
+            <?php include "_/Components/php/aside-googleMaps.php"; ?>
+            <?php include "_/Components/php/aside-feedback.php"; ?>
 
         </section>
         <!--sidebar-->
     </div>
     <!--content-->
-    <?php include "_/components/php/footer.php"; ?>
+    <?php include "_/Components/php/footer.php"; ?>
 </section>
 <!--container-->
 
