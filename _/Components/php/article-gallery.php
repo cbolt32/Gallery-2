@@ -23,7 +23,7 @@
     </div>
 </div>
 <div class="col-lg-3 col-sm-4 col-xs-6" id="tn2">
-    <h4 class="modal-header">Looking Towards Belle Tu'</h4>
+    <h4 class="modal-header">Looking towards Belle Tu'</h4>
     <a title="Image 2" href="#">
         <div class="wrapper">
             <div class="ribbon-wrapper-red">
@@ -67,7 +67,7 @@
 </div>
 </div>
 <div class="col-lg-3 col-sm-4 col-xs-6" id="tn6">
-    <h4 class="modal-header">Looking towards "Belle Fu" from Seaford Head</h4>
+    <h4 class="modal-header">Looking towards "Belle Tu" from Seaford Head</h4>
     <a title="Image 6" href="#">
         <div class="wrapper">
             <div class="ribbon-wrapper-red">
@@ -78,7 +78,7 @@
 </div>
 </div>
 <div class="col-lg-3 col-sm-4 col-xs-6" id="tn7">
-    <h4 class="modal-header">Sunny Veiw Newhaven Harbour</h4>
+    <h4 class="modal-header">Sunny view, Newhaven Harbour</h4>
     <a title="Image 7" href="#">
         <div class="wrapper">
             <div class="ribbon-wrapper-red">
@@ -122,7 +122,7 @@
 </div>
 </div>
 <div class="col-lg-3 col-sm-4 col-xs-6" id="tn11">
-    <h4 class="modal-header">Ploughed fields enroute to Lewis</h4>
+    <h4 class="modal-header">Ploughed fields en route to Lewis</h4>
     <a title="Image 11" href="#">
         <div class="wrapper">
             <div class="ribbon-wrapper-red">
@@ -243,7 +243,7 @@
 </div>
 </div>
 <div class="col-lg-3 col-sm-4 col-xs-6" id="tn22">
-    <h4 class="modal-header">Downloand hedgeland</h4>
+    <h4 class="modal-header">Downland hedge land</h4>
     <a title="Image 22" href="#">
         <div class="wrapper">
             <div class="ribbon-wrapper-red">
@@ -287,7 +287,7 @@
 </div>
 </div>
 <div class="col-lg-3 col-sm-4 col-xs-6" id="tn26">
-    <h4 class="modal-header">Download ocean scene </h4>
+    <h4 class="modal-header">Downland ocean scene </h4>
     <a title="Image 26" href="#">
         <div class="wrapper">
             <div class="ribbon-wrapper-red">
@@ -305,6 +305,50 @@
                 <div class="ribbon-red">SOLD</div>
             </div>
             <img class="thumbnail img-responsive" src="/_/img/Gallery images/ssArtwork-27.JPEG">
+    </a>
+</div>
+</div>
+<div class="col-lg-3 col-sm-4 col-xs-6" id="tn28">
+    <h4 class="modal-header">Summer rain</h4>
+    <a title="Image 28" href="#">
+        <div class="wrapper">
+            <div class="ribbon-wrapper-red">
+                <div class="ribbon-red">SOLD</div>
+            </div>
+            <img class="thumbnail img-responsive" src="/_/img/Gallery images/ssArtwork-28.JPEG">
+    </a>
+</div>
+</div>
+<div class="col-lg-3 col-sm-4 col-xs-6" id="tn29">
+    <h4 class="modal-header">Cliffs in Sussex </h4>
+    <a title="Image 29" href="#">
+        <div class="wrapper">
+            <div class="ribbon-wrapper-red">
+                <div class="ribbon-red">SOLD</div>
+            </div>
+            <img class="thumbnail img-responsive" src="/_/img/Gallery images/ssArtwork-29.JPEG">
+    </a>
+</div>
+</div>
+<div class="col-lg-3 col-sm-4 col-xs-6" id="tn30">
+    <h4 class="modal-header">Hot day in a cornfield</h4>
+    <a title="Image 30" href="#">
+        <div class="wrapper">
+            <div class="ribbon-wrapper-red">
+                <div class="ribbon-red">SOLD</div>
+            </div>
+            <img class="thumbnail img-responsive" src="/_/img/Gallery images/ssArtwork-30.JPEG">
+    </a>
+</div>
+</div>
+<div class="col-lg-3 col-sm-4 col-xs-6" id="tn31">
+    <h4 class="modal-header">Summer rain part 2 </h4>
+    <a title="Image 31" href="#">
+        <div class="wrapper">
+            <div class="ribbon-wrapper-red">
+                <div class="ribbon-red">SOLD</div>
+            </div>
+            <img class="thumbnail img-responsive" src="/_/img/Gallery images/ssArtwork-31.JPEG">
     </a>
 </div>
 </div>

@@ -1,7 +1,7 @@
 <article class="into" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
     <h2 class="introTitle">Introduction</h2>
 
-    <p>Welcome to my site, I hope you find something you like! I shall be keeping it updated as often as i can with
+    <p>Welcome to my site, I hope you find something you like! I shall be keeping it updated as often as I can with
        news, and my future works of art.
     </p>
     <p>My primary reason for wanting to create this site is to bring my work to a wider audience and present my

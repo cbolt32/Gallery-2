@@ -20,7 +20,7 @@ $subject = $enquiryType;
 $message = "Hello!
 
 A contact form was submitted via your website from $myName ,
-who can be contacted on: $myEmail
+who can be contacted on: $myEmail, $phoneNum
 
 The $enquiryType contained the following detail;
 

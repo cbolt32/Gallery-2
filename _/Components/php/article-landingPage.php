@@ -30,7 +30,9 @@
         <h1><span>Shannon Sait - BA Hons Fine Art</span></h1>
 
         <h2>Showcasing My Artwork</h2>
-        <button type="button" class=" landingButton btn btn-default"><a href="gallery.php">Visit My Gallery</a></button>
+<!--        <button type="button" class="landingButton btn btn-default">-->
+            <a href="gallery.php" class="landingButton btn btn-default">Visit My Gallery</a>
+<!--        </button>-->
 
     </header>
 

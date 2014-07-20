@@ -34,7 +34,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.facebook.com/shannon.sait"><img id="facebookIcon" src="_/img/Icons/facebook.png" alt=""/>
+                    <a href="https://www.facebook.com/shannon.sait.9"><img id="facebookIcon" src="_/img/Icons/facebook.png" alt=""/>
                     </a>
                 </li>
             </ul>
