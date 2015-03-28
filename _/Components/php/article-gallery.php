@@ -1,14 +1,15 @@
 
 <h1 class="galleryTitle">Gallery</h1></br>
 
-<h3 class="galleryHeading">Welcome to my gallery,</h3>
-<p>
-    If you are interested in purchasing any pieces, they are all produced with high quality acrylic paints and watercolor paper. They will all be set in bespoke, handmade woodern frames with a glass front.The pieces range in size (large and small) and are produced to either 34' x 26.5', or 32' x 24'
+<!--<h3 class="galleryHeading">Welcome to my gallery,</h3>
+ <p>
+    If you are interested in purchasing any pieces, they are all produced with high quality acrylic paints and watercolor paper.The pieces range in size (large and small) and are produced to either 34' x 26.5', or 32' x 24'. All are Professionally framed.
 </p>
 <p>
-    Viewing is welcome with a visit to my studio. The cost per piece is &pound500,
+    Viewing is welcome with a visit to my studio. The cost per piece is &pound850,
     please use my <a href="Contact.php">contact form</a> using the "sales" enquiry type if you are considering a purchase.
 </P>
+-->
 
 <div class="row">
     <div class="col-lg-3 col-sm-4 col-xs-6" id="tn1">
@@ -342,13 +343,68 @@
 </div>
 </div>
 <div class="col-lg-3 col-sm-4 col-xs-6" id="tn31">
-    <h4 class="modal-header">Summer rain part 2 </h4>
+    <h4 class="modal-header">Newhaven Ferry</h4>
     <a title="Image 31" href="#">
         <div class="wrapper">
             <div class="ribbon-wrapper-red">
                 <div class="ribbon-red">SOLD</div>
             </div>
             <img class="thumbnail img-responsive" src="/_/img/Gallery images/ssArtwork-31.JPEG">
+    </a>
+</div>
+</div>
+<div class="col-lg-3 col-sm-4 col-xs-6" id="tn32">
+    <h4 class="modal-header">The Harbour, Newhaven</h4>
+    <a title="Image 32" href="#">
+        <div class="wrapper">
+            <div class="ribbon-wrapper-red">
+                <div class="ribbon-red">SOLD</div>
+            </div>
+            <img class="thumbnail img-responsive" src="/_/img/Gallery images/14-Oct_untitled_003.JPEG">
+    </a>
+</div>
+</div>
+<div class="col-lg-3 col-sm-4 col-xs-6" id="tn33">
+    <h4 class="modal-header">Cornflowers</h4>
+    <a title="Image 33" href="#">
+        <div class="wrapper">
+            <div class="ribbon-wrapper-red">
+                <div class="ribbon-red">SOLD</div>
+            </div>
+            <img class="thumbnail img-responsive" src="/_/img/Gallery images/14-Oct_untitled_006.JPEG">
+    </a>
+</div>
+</div>
+<div class="col-lg-3 col-sm-4 col-xs-6" id="tn34">
+    <h4 class="modal-header">Summer Hedgrow</h4>
+    <a title="Image 34" href="#">
+        <div class="wrapper">
+            <div class="ribbon-wrapper-red">
+                <div class="ribbon-red">SOLD</div>
+            </div>
+            <img class="thumbnail img-responsive" src="/_/img/Gallery images/14-Oct_untitled_009.JPEG">
+    </a>
+</div>
+</div>
+<div class="col-lg-3 col-sm-4 col-xs-6" id="tn35">
+    <h4 class="modal-header">Chalk Hills</h4>
+    <a title="Image 35" href="#">
+        <div class="wrapper">
+            <div class="ribbon-wrapper-red">
+                <div class="ribbon-red">SOLD</div>
+            </div>
+            <img class="thumbnail img-responsive" src="/_/img/Gallery images/14-Oct_untitled_011.JPEG">
+    </a>
+</div>
+</div>
+<div class="col-lg-3 col-sm-4 col-xs-6" id="tn36">
+    <h4 class="modal-header">Downlands</h4>
+    <a title="Image 36" href="#">
+        <div class="wrapper">
+            <div class="ribbon-wrapper-red">
+                <div class="ribbon-red">SOLD</div>
+            </div>
+            <img class="thumbnail img-responsive" src="/_/img/Gallery images/14-Oct_untitled_013.JPEG">
     </a>
 </div>
 </div>
