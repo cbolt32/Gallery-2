@@ -7,6 +7,7 @@ $(function () {
     $("#about a:contains('About Myself')").parent().addClass('active');
     $("#gallery a:contains('Gallery')").parent().addClass('active');
     $("#ContactMe a:contains('Contact')").parent().addClass('active');
+	//$("#gallery2014 a:contains('gallery2014')").parent().addClass('active');
 
 
     //show modals
